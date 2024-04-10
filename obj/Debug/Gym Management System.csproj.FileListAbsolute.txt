@@ -1,0 +1,14 @@
+D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Gym Management System.exe.config
+D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Gym Management System.exe
+D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Gym Management System.pdb
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.AssemblyReference.cache
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Properties.Resources.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.GenerateResource.cache
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.CoreCompileInputs.cache
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.exe
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.pdb
+D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Welcome.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.CopyComplete
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.CustomControls.GymTextBox.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.SignUp.resources
