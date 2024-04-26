@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceForm.Designer.cs">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomControls\GymComboBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -61,6 +67,17 @@
     </Compile>
     <Compile Include="CustomControls\GymToggleButton.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceStaff.Designer.cs">
+      <DependentUpon>ServiceStaff.cs</DependentUpon>
     </Compile>
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
@@ -76,8 +93,14 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AttendanceForm.resx">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomControls\GymTextBox.resx">
       <DependentUpon>GymTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceStaff.resx">
+      <DependentUpon>ServiceStaff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
@@ -95,6 +118,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Gym_Management_SystemDataSet.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet.xss">
+      <DependentUpon>Gym_Management_SystemDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -155,6 +189,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\business-card %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-out-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ranking %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maps-and-flags %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\age-group %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -113,7 +113,7 @@ namespace Gym_Management_System
             this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Black;
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "SignUp";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;

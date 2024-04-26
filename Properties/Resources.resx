@@ -118,52 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="view (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\view (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gym_image_(1)-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gym_image_(1)-transformed.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pexels-william-choquette-1954524 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-william-choquette-1954524 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user-interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add-user (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add-user (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gym-with-red-light-wall-black-gym-with-weights-weights_911201-3371" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gym-with-red-light-wall-black-gym-with-weights-weights_911201-3371.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="various-fit-fitness-health" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\various-fit-fitness-health.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dark-gym-with-red-lights-black-background_876956-1224 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dark-gym-with-red-lights-black-background_876956-1224 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dark-gym-with-red-lights-black-background_876956-1224" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dark-gym-with-red-lights-black-background_876956-1224.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user-interface (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-interface (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fitness" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fitness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dark-gym-with-red-lights-black-background_876956-1224 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dark-gym-with-red-lights-black-background_876956-1224 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user-interface (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-interface (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gym-with-red-light-wall-black-gym-with-weights-weights_911201-3371" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gym-with-red-light-wall-black-gym-with-weights-weights_911201-3371.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user-interface (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-interface (2) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="money (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add-user (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-user (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pexels-william-choquette-1954524" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-william-choquette-1954524.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="business-card (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\business-card (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaction (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transaction (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fitness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fitness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maps-and-flags (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maps-and-flags (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download-removebg-preview (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="age-group (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\age-group (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark-gym-with-red-lights-black-background_876956-1224 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark-gym-with-red-lights-black-background_876956-1224 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-william-choquette-1954524 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-william-choquette-1954524 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark-gym-with-red-lights-black-background_876956-1224" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark-gym-with-red-lights-black-background_876956-1224.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark-gym-with-red-lights-black-background_876956-1224 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark-gym-with-red-lights-black-background_876956-1224 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sign-out-alt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign-out-alt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaction (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transaction (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gym_image_(1)-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gym_image_(1)-transformed.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaction (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transaction (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attendance (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attendance (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-interface (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-interface (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranking (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ranking (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="various-fit-fitness-health" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\various-fit-fitness-health.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

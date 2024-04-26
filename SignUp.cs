@@ -16,6 +16,7 @@ namespace Gym_Management_System
         public SignUp()
         {
             InitializeComponent();
+            bunifuThinButton21.BackColor = Color.Transparent;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -194,6 +195,12 @@ namespace Gym_Management_System
             {
                 MessageBox.Show("One or More field is empty", "SignUp Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            DateTime now = DateTime.Now;
+
+
+
+            
 
             // More logic to enter the data in database
         }

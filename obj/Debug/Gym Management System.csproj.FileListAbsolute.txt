@@ -12,3 +12,5 @@ D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_S
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.CopyComplete
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.CustomControls.GymTextBox.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.SignUp.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.ServiceStaff.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.AttendanceForm.resources

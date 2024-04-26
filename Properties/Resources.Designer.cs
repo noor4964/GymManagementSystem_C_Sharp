@@ -73,6 +73,26 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap age_group__1_ {
+            get {
+                object obj = ResourceManager.GetObject("age-group (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap attendance__1_ {
+            get {
+                object obj = ResourceManager.GetObject("attendance (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap business_card__1_ {
             get {
                 object obj = ResourceManager.GetObject("business-card (1)", resourceCulture);
@@ -123,6 +143,16 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap folder__1_ {
+            get {
+                object obj = ResourceManager.GetObject("folder (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gym_image__1__transformed {
             get {
                 object obj = ResourceManager.GetObject("gym_image_(1)-transformed", resourceCulture);
@@ -143,6 +173,26 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap maps_and_flags__1_ {
+            get {
+                object obj = ResourceManager.GetObject("maps-and-flags (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap money__1_ {
+            get {
+                object obj = ResourceManager.GetObject("money (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pexels_william_choquette_1954524 {
             get {
                 object obj = ResourceManager.GetObject("pexels-william-choquette-1954524", resourceCulture);
@@ -156,6 +206,144 @@ namespace Gym_Management_System.Properties {
         internal static System.Drawing.Bitmap pexels_william_choquette_1954524__1_ {
             get {
                 object obj = ResourceManager.GetObject("pexels-william-choquette-1954524 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap phone__1_ {
+            get {
+                object obj = ResourceManager.GetObject("phone (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profile__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("profile__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Ve" +
+                        "ctor_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Downl" +
+                        "oad-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download_removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Ve" +
+                        "ctor_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Downl" +
+                        "oad-removebg-preview (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download_removebg_preview__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Ve" +
+                        "ctor_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Downl" +
+                        "oad-removebg-preview (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Vector_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Download_removebg_preview__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("Profile_Icon_Silhouette_PNG_Transparent__Avatar_Icon_Profile_Icon_Member_Login_Ve" +
+                        "ctor_Isolated__Login_Icons__Profile_Icons__Avatar_Icons_PNG_Image_For_Free_Downl" +
+                        "oad-removebg-preview (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ranking__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ranking (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap receipt {
+            get {
+                object obj = ResourceManager.GetObject("receipt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sign_out_alt {
+            get {
+                object obj = ResourceManager.GetObject("sign-out-alt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap transaction__1_ {
+            get {
+                object obj = ResourceManager.GetObject("transaction (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap transaction__2_ {
+            get {
+                object obj = ResourceManager.GetObject("transaction (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap transaction__3_ {
+            get {
+                object obj = ResourceManager.GetObject("transaction (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user {
+            get {
+                object obj = ResourceManager.GetObject("user", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
