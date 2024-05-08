@@ -17,17 +17,23 @@ namespace Gym_Management_System
             InitializeComponent();
             Color deepRed = Color.FromArgb(128, 0, 32);
             Color maroon = Color.FromArgb(128, 0, 0);
-            Color crimson = Color.FromArgb(220, 20, 60);
-            Color darkCherry = Color.FromArgb(139, 0, 0);
+            Color darkCherry = Color.FromArgb(255,127,127);
+            Color black = Color.FromArgb(0, 0, 0);
             Color brickRed = Color.FromArgb(178, 34, 34);
+            Color white = Color.FromArgb(255, 255, 255);
 
-            Color blendedColor = BlendColors(darkCherry);
+            Color blendedColor = BlendColors(maroon, black);
 
             Color header = BlendColors(darkCherry, brickRed, deepRed);
 
-            recordsPanel.BackColor = blendedColor;
+            recordsPanel.BackColor = white;
 
             headerBar.BackColor = header;
+
+            serviceStaffRecords.BackgroundColor = white;
+
+            panel1.BackColor = header;
+            panel2.BackColor = header;
         }
 
         private Color BlendColors(params Color[] colors)

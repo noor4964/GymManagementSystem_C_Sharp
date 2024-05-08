@@ -18,8 +18,9 @@ namespace Gym_Management_System
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Welcome());
             //Application.Run(new SignUp());
-            Application.Run(new ServiceStaff());
+            //Application.Run(new ServiceStaff());
             //Application.Run(new AttendanceForm());
+            Application.Run(new ManagerForm());
         }
     }
 }

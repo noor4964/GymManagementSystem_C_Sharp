@@ -68,10 +68,29 @@
     <Compile Include="CustomControls\GymToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Gym_Management_SystemDataSet.cs">
+      <DependentUpon>Gym_Management_SystemDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Gym_Management_SystemDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Gym_Management_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ServiceStaff.cs">
       <SubType>Form</SubType>
@@ -98,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomControls\GymTextBox.resx">
       <DependentUpon>GymTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ServiceStaff.resx">
       <DependentUpon>ServiceStaff.cs</DependentUpon>
@@ -128,6 +150,28 @@
     </None>
     <None Include="Gym_Management_SystemDataSet.xss">
       <DependentUpon>Gym_Management_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet1.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet1.xss">
+      <DependentUpon>Gym_Management_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet2.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet2.xss">
+      <DependentUpon>Gym_Management_SystemDataSet2.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -243,6 +287,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\folder %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money %282%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money %282%29 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee %281%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
