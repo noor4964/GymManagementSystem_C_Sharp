@@ -20,7 +20,10 @@ namespace Gym_Management_System
             //Application.Run(new SignUp());
             //Application.Run(new ServiceStaff());
             //Application.Run(new AttendanceForm());
-            Application.Run(new ManagerForm());
+            //Application.Run(new ManagerForm());
+            //Application.Run(new Package());
+            //Application.Run(new BKashTransaction());
+            Application.Run(new Member());
         }
     }
 }

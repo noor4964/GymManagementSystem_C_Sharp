@@ -33,7 +33,7 @@ namespace Gym_Management_System
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.signUpBtn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
@@ -43,24 +43,24 @@ namespace Gym_Management_System
             this.label6 = new System.Windows.Forms.Label();
             this.bunifuCheckbox1 = new Bunifu.Framework.UI.BunifuCheckbox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.gymComboBox2 = new Gym_Management_System.CustomControls.GymComboBox();
             this.gymComboBox1 = new Gym_Management_System.CustomControls.GymComboBox();
             this.gymToggleButton1 = new Gym_Management_System.CustomControls.GymToggleButton();
+            this.label15 = new System.Windows.Forms.Label();
+            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.label14 = new System.Windows.Forms.Label();
             this.gymTextBox7 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.gymTextBox6 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.gymTextBox5 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.gymTextBox4 = new Gym_Management_System.CustomControls.GymTextBox();
             this.gymTextBox3 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.nametextBox = new Gym_Management_System.CustomControls.GymTextBox();
             this.gymTextBox2 = new Gym_Management_System.CustomControls.GymTextBox();
             this.gymTextBox1 = new Gym_Management_System.CustomControls.GymTextBox();
@@ -96,7 +96,7 @@ namespace Gym_Management_System
             // panel1
             // 
             this.panel1.BackgroundImage = global::Gym_Management_System.Properties.Resources.gym_image__1__transformed;
-            this.panel1.Controls.Add(this.bunifuThinButton21);
+            this.panel1.Controls.Add(this.signUpBtn);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
@@ -106,31 +106,31 @@ namespace Gym_Management_System
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // bunifuThinButton21
+            // signUpBtn
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "SignUp";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(100, 247);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(238, 95);
-            this.bunifuThinButton21.TabIndex = 2;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.signUpBtn.ActiveBorderThickness = 1;
+            this.signUpBtn.ActiveCornerRadius = 20;
+            this.signUpBtn.ActiveFillColor = System.Drawing.Color.White;
+            this.signUpBtn.ActiveForecolor = System.Drawing.Color.Black;
+            this.signUpBtn.ActiveLineColor = System.Drawing.Color.Black;
+            this.signUpBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.signUpBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("signUpBtn.BackgroundImage")));
+            this.signUpBtn.ButtonText = "SignUp";
+            this.signUpBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.signUpBtn.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signUpBtn.ForeColor = System.Drawing.Color.Black;
+            this.signUpBtn.IdleBorderThickness = 1;
+            this.signUpBtn.IdleCornerRadius = 20;
+            this.signUpBtn.IdleFillColor = System.Drawing.Color.Transparent;
+            this.signUpBtn.IdleForecolor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.signUpBtn.IdleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.signUpBtn.Location = new System.Drawing.Point(100, 247);
+            this.signUpBtn.Margin = new System.Windows.Forms.Padding(5);
+            this.signUpBtn.Name = "signUpBtn";
+            this.signUpBtn.Size = new System.Drawing.Size(238, 95);
+            this.signUpBtn.TabIndex = 2;
+            this.signUpBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.signUpBtn.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // label2
             // 
@@ -274,124 +274,6 @@ namespace Gym_Management_System
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(545, 53);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(174, 57);
-            this.label15.TabIndex = 36;
-            this.label15.Text = "Already a Member?\r\n      Login Now!\r\n\r\n";
-            // 
-            // bunifuThinButton23
-            // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.Red;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "Clear";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.Red;
-            this.bunifuThinButton23.IdleBorderThickness = 1;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Red;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(382, 680);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(304, 66);
-            this.bunifuThinButton23.TabIndex = 34;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(378, 602);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 23);
-            this.label14.TabIndex = 33;
-            this.label14.Text = "Height";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(381, 525);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(74, 23);
-            this.label13.TabIndex = 31;
-            this.label13.Text = "Weight";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(380, 441);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(80, 23);
-            this.label12.TabIndex = 29;
-            this.label12.Text = "Gender";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(27, 679);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(120, 23);
-            this.label11.TabIndex = 27;
-            this.label11.Text = "Date of Birth";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(27, 602);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(122, 23);
-            this.label10.TabIndex = 26;
-            this.label10.Text = "Postal Code";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(27, 524);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 23);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "City";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(27, 447);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(141, 23);
-            this.label8.TabIndex = 22;
-            this.label8.Text = "Street Address";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(377, 366);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(173, 23);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "Confirm Password";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
             // gymComboBox2
             // 
             this.gymComboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
@@ -465,6 +347,53 @@ namespace Gym_Management_System
             this.gymToggleButton1.UseVisualStyleBackColor = true;
             this.gymToggleButton1.CheckedChanged += new System.EventHandler(this.gymToggleButton1_CheckedChanged);
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(545, 53);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(174, 57);
+            this.label15.TabIndex = 36;
+            this.label15.Text = "Already a Member?\r\n      Login Now!\r\n\r\n";
+            // 
+            // bunifuThinButton23
+            // 
+            this.bunifuThinButton23.ActiveBorderThickness = 1;
+            this.bunifuThinButton23.ActiveCornerRadius = 20;
+            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Black;
+            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
+            this.bunifuThinButton23.ButtonText = "Clear";
+            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton23.ForeColor = System.Drawing.Color.Red;
+            this.bunifuThinButton23.IdleBorderThickness = 1;
+            this.bunifuThinButton23.IdleCornerRadius = 20;
+            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Red;
+            this.bunifuThinButton23.Location = new System.Drawing.Point(382, 680);
+            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton23.Name = "bunifuThinButton23";
+            this.bunifuThinButton23.Size = new System.Drawing.Size(304, 66);
+            this.bunifuThinButton23.TabIndex = 34;
+            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(378, 602);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(70, 23);
+            this.label14.TabIndex = 33;
+            this.label14.Text = "Height";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
             // gymTextBox7
             // 
             this.gymTextBox7.BackColor = System.Drawing.SystemColors.Window;
@@ -486,6 +415,16 @@ namespace Gym_Management_System
             this.gymTextBox7.Texts = "";
             this.gymTextBox7.UnderLinedStyle = false;
             this.gymTextBox7._TextChanged += new System.EventHandler(this.gymTextBox7__TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(381, 525);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(74, 23);
+            this.label13.TabIndex = 31;
+            this.label13.Text = "Weight";
             // 
             // gymTextBox6
             // 
@@ -509,6 +448,36 @@ namespace Gym_Management_System
             this.gymTextBox6.UnderLinedStyle = false;
             this.gymTextBox6._TextChanged += new System.EventHandler(this.gymTextBox6__TextChanged);
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(380, 441);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(80, 23);
+            this.label12.TabIndex = 29;
+            this.label12.Text = "Gender";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(27, 679);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 23);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "Date of Birth";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(27, 602);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(122, 23);
+            this.label10.TabIndex = 26;
+            this.label10.Text = "Postal Code";
+            // 
             // gymTextBox5
             // 
             this.gymTextBox5.BackColor = System.Drawing.SystemColors.Window;
@@ -529,6 +498,26 @@ namespace Gym_Management_System
             this.gymTextBox5.TabIndex = 25;
             this.gymTextBox5.Texts = "";
             this.gymTextBox5.UnderLinedStyle = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(27, 524);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(47, 23);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "City";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(27, 447);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(141, 23);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "Street Address";
             // 
             // gymTextBox4
             // 
@@ -571,6 +560,17 @@ namespace Gym_Management_System
             this.gymTextBox3.TabIndex = 20;
             this.gymTextBox3.Texts = "";
             this.gymTextBox3.UnderLinedStyle = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(377, 366);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(173, 23);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Confirm Password";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // nametextBox
             // 
@@ -665,7 +665,7 @@ namespace Gym_Management_System
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 signUpBtn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;

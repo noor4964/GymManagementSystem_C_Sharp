@@ -1,7 +1,6 @@
 D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Gym Management System.exe.config
 D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Gym Management System.exe
 D:\Progamming Files\CSharp Lang\Gym Management System\bin\Debug\Gym Management System.pdb
-D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.AssemblyReference.cache
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Properties.Resources.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.GenerateResource.cache
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.CoreCompileInputs.cache
@@ -15,3 +14,7 @@ D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_S
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.ServiceStaff.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.AttendanceForm.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.ManagerForm.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Package.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.AssemblyReference.cache
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.BKashTransaction.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Member.resources

@@ -45,8 +45,7 @@ namespace Gym_Management_System
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.profilePanel = new System.Windows.Forms.Panel();
-            this.employeeSalaryBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.gym_Management_SystemDataSet = new Gym_Management_System.Gym_Management_SystemDataSet();
+            this.managerLabel = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -62,8 +61,9 @@ namespace Gym_Management_System
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.employeeSalaryBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.gym_Management_SystemDataSet = new Gym_Management_System.Gym_Management_SystemDataSet();
             this.employee_SalaryTableAdapter = new Gym_Management_System.Gym_Management_SystemDataSetTableAdapters.Employee_SalaryTableAdapter();
-            this.managerLabel = new System.Windows.Forms.Label();
             this.recordsPanel = new System.Windows.Forms.Panel();
             this.serviceStaffRecords = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.transactionIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,13 +85,13 @@ namespace Gym_Management_System
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.profilePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).BeginInit();
             this.recordsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.serviceStaffRecords)).BeginInit();
             this.headerBar.SuspendLayout();
@@ -179,15 +179,15 @@ namespace Gym_Management_System
             this.profilePanel.TabIndex = 1;
             this.profilePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // employeeSalaryBindingSource
+            // managerLabel
             // 
-            this.employeeSalaryBindingSource.DataMember = "Employee_Salary";
-            this.employeeSalaryBindingSource.DataSource = this.gym_Management_SystemDataSet;
-            // 
-            // gym_Management_SystemDataSet
-            // 
-            this.gym_Management_SystemDataSet.DataSetName = "Gym_Management_SystemDataSet";
-            this.gym_Management_SystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.managerLabel.AutoSize = true;
+            this.managerLabel.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.managerLabel.Location = new System.Drawing.Point(37, 46);
+            this.managerLabel.Name = "managerLabel";
+            this.managerLabel.Size = new System.Drawing.Size(363, 44);
+            this.managerLabel.TabIndex = 9;
+            this.managerLabel.Text = "Service Staff Profile";
             // 
             // panel7
             // 
@@ -351,19 +351,19 @@ namespace Gym_Management_System
             this.label4.Text = "Rank";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // employeeSalaryBindingSource
+            // 
+            this.employeeSalaryBindingSource.DataMember = "Employee_Salary";
+            this.employeeSalaryBindingSource.DataSource = this.gym_Management_SystemDataSet;
+            // 
+            // gym_Management_SystemDataSet
+            // 
+            this.gym_Management_SystemDataSet.DataSetName = "Gym_Management_SystemDataSet";
+            this.gym_Management_SystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // employee_SalaryTableAdapter
             // 
             this.employee_SalaryTableAdapter.ClearBeforeFill = true;
-            // 
-            // managerLabel
-            // 
-            this.managerLabel.AutoSize = true;
-            this.managerLabel.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.managerLabel.Location = new System.Drawing.Point(37, 46);
-            this.managerLabel.Name = "managerLabel";
-            this.managerLabel.Size = new System.Drawing.Size(332, 44);
-            this.managerLabel.TabIndex = 9;
-            this.managerLabel.Text = "Manager\'s Profile";
             // 
             // recordsPanel
             // 
@@ -641,8 +641,6 @@ namespace Gym_Management_System
             this.panel2.PerformLayout();
             this.profilePanel.ResumeLayout(false);
             this.profilePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -653,6 +651,8 @@ namespace Gym_Management_System
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).EndInit();
             this.recordsPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.serviceStaffRecords)).EndInit();
             this.headerBar.ResumeLayout(false);

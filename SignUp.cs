@@ -8,6 +8,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace Gym_Management_System
 {
@@ -16,8 +18,10 @@ namespace Gym_Management_System
         public SignUp()
         {
             InitializeComponent();
-            bunifuThinButton21.BackColor = Color.Transparent;
+            signUpBtn.BackColor = Color.Transparent;
         }
+
+        SqlConnection conn = new SqlConnection("Data Source=NAVEDPC;Initial Catalog=Gym_Management_System;Integrated Security=True");
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -162,7 +166,7 @@ namespace Gym_Management_System
 
             if(!passWord.Equals(confirmpassWord))
             {
-                MessageBox.Show("The password is not same as confirm password", "SignUp Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               MessageBox.Show("The password is not same as confirm password", "SignUp Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             if (yearDiff < 1)
@@ -198,9 +202,9 @@ namespace Gym_Management_System
 
             DateTime now = DateTime.Now;
 
-
-
             
+
+
 
             // More logic to enter the data in database
         }
