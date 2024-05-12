@@ -103,8 +103,12 @@ namespace Gym_Management_System
 
         private void ServiceStaff_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'gym_Management_SystemDataSet7.Employee_Salary' table. You can move, or remove it, as needed.
+            this.employee_SalaryTableAdapter2.Fill(this.gym_Management_SystemDataSet7.Employee_Salary);
+            // TODO: This line of code loads data into the 'gym_Management_SystemDataSet5.Employee_Salary' table. You can move, or remove it, as needed.
+            //this.employee_SalaryTableAdapter1.Fill(this.gym_Management_SystemDataSet5.Employee_Salary);
             // TODO: This line of code loads data into the 'gym_Management_SystemDataSet.Employee_Salary' table. You can move, or remove it, as needed.
-            this.employee_SalaryTableAdapter.Fill(this.gym_Management_SystemDataSet.Employee_Salary);
+            //this.employee_SalaryTableAdapter.Fill(this.gym_Management_SystemDataSet.Employee_Salary);
 
         }
     }

@@ -18,3 +18,6 @@ D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_S
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym Management System.csproj.AssemblyReference.cache
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.BKashTransaction.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Member.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Trainer.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Nutritionist.resources
+D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Admin.resources

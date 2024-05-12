@@ -33,5 +33,16 @@ namespace Gym_Management_System.Properties {
                 return ((string)(this["Gym_Management_SystemConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=NAVEDPC;Initial Catalog=Gym_Management_System;Integrated Security=Tru" +
+            "e")]
+        public string Gym_Management_SystemConnectionString1 {
+            get {
+                return ((string)(this["Gym_Management_SystemConnectionString1"]));
+            }
+        }
     }
 }

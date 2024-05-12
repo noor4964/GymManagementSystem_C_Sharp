@@ -40,27 +40,36 @@ namespace Gym_Management_System
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServiceStaff));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.logOutBtn = new System.Windows.Forms.Button();
+            this.recordsBtn = new System.Windows.Forms.Button();
+            this.profileBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.profilePanel = new System.Windows.Forms.Panel();
             this.managerLabel = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.employeeSalaryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gym_Management_SystemDataSet = new Gym_Management_System.Gym_Management_SystemDataSet();
             this.employee_SalaryTableAdapter = new Gym_Management_System.Gym_Management_SystemDataSetTableAdapters.Employee_SalaryTableAdapter();
@@ -70,38 +79,39 @@ namespace Gym_Management_System
             this.salaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.payDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeSalaryBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.gym_Management_SystemDataSet7 = new Gym_Management_System.Gym_Management_SystemDataSet7();
             this.headerBar = new System.Windows.Forms.Panel();
-            this.Records = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.logOutBtn = new System.Windows.Forms.Button();
-            this.recordsBtn = new System.Windows.Forms.Button();
-            this.profileBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Records = new System.Windows.Forms.Label();
+            this.gym_Management_SystemDataSet5 = new Gym_Management_System.Gym_Management_SystemDataSet5();
+            this.employeeSalaryBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.employee_SalaryTableAdapter1 = new Gym_Management_System.Gym_Management_SystemDataSet5TableAdapters.Employee_SalaryTableAdapter();
+            this.employee_SalaryTableAdapter2 = new Gym_Management_System.Gym_Management_SystemDataSet7TableAdapters.Employee_SalaryTableAdapter();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.profilePanel.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).BeginInit();
             this.recordsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.serviceStaffRecords)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet7)).BeginInit();
             this.headerBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -116,6 +126,60 @@ namespace Gym_Management_System
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(379, 791);
             this.panel1.TabIndex = 0;
+            // 
+            // logOutBtn
+            // 
+            this.logOutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.logOutBtn.FlatAppearance.BorderSize = 0;
+            this.logOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logOutBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logOutBtn.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.logOutBtn.Image = global::Gym_Management_System.Properties.Resources.sign_out_alt;
+            this.logOutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.logOutBtn.Location = new System.Drawing.Point(0, 725);
+            this.logOutBtn.Name = "logOutBtn";
+            this.logOutBtn.Size = new System.Drawing.Size(379, 66);
+            this.logOutBtn.TabIndex = 3;
+            this.logOutBtn.Text = "Logout";
+            this.logOutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.logOutBtn.UseVisualStyleBackColor = true;
+            this.logOutBtn.Click += new System.EventHandler(this.logOutBtn_Click);
+            // 
+            // recordsBtn
+            // 
+            this.recordsBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.recordsBtn.FlatAppearance.BorderSize = 0;
+            this.recordsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.recordsBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recordsBtn.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.recordsBtn.Image = global::Gym_Management_System.Properties.Resources.receipt;
+            this.recordsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.recordsBtn.Location = new System.Drawing.Point(0, 361);
+            this.recordsBtn.Name = "recordsBtn";
+            this.recordsBtn.Size = new System.Drawing.Size(379, 66);
+            this.recordsBtn.TabIndex = 2;
+            this.recordsBtn.Text = "Records";
+            this.recordsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.recordsBtn.UseVisualStyleBackColor = true;
+            this.recordsBtn.Click += new System.EventHandler(this.recordsBtn_Click);
+            // 
+            // profileBtn
+            // 
+            this.profileBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.profileBtn.FlatAppearance.BorderSize = 0;
+            this.profileBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.profileBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileBtn.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.profileBtn.Image = global::Gym_Management_System.Properties.Resources.user;
+            this.profileBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.profileBtn.Location = new System.Drawing.Point(0, 298);
+            this.profileBtn.Name = "profileBtn";
+            this.profileBtn.Size = new System.Drawing.Size(379, 63);
+            this.profileBtn.TabIndex = 1;
+            this.profileBtn.Text = "Profile";
+            this.profileBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.profileBtn.UseVisualStyleBackColor = true;
+            this.profileBtn.Click += new System.EventHandler(this.profileBtn_Click);
             // 
             // panel2
             // 
@@ -163,6 +227,16 @@ namespace Gym_Management_System
             this.label1.TabIndex = 1;
             this.label1.Text = "John Doe";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Image = global::Gym_Management_System.Properties.Resources.profile__1__removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(119, 46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 133);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // profilePanel
             // 
@@ -221,6 +295,15 @@ namespace Gym_Management_System
             this.label8.TabIndex = 5;
             this.label8.Text = "Address";
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Gym_Management_System.Properties.Resources.maps_and_flags__1_;
+            this.pictureBox6.Location = new System.Drawing.Point(19, 44);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(102, 124);
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(71)))), ((int)(((byte)(71)))));
@@ -252,6 +335,15 @@ namespace Gym_Management_System
             this.label7.Size = new System.Drawing.Size(97, 44);
             this.label7.TabIndex = 4;
             this.label7.Text = "Age";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Gym_Management_System.Properties.Resources.age_group__1_;
+            this.pictureBox5.Location = new System.Drawing.Point(26, 32);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(120, 124);
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
             // 
             // panel5
             // 
@@ -285,6 +377,16 @@ namespace Gym_Management_System
             this.label6.TabIndex = 3;
             this.label6.Text = "Contact";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Gym_Management_System.Properties.Resources.phone__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(23, 57);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(90, 124);
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(71)))), ((int)(((byte)(71)))));
@@ -316,6 +418,15 @@ namespace Gym_Management_System
             this.label5.Size = new System.Drawing.Size(131, 44);
             this.label5.TabIndex = 2;
             this.label5.Text = "Salary";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Gym_Management_System.Properties.Resources.money__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(21, 64);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(120, 124);
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
             // 
             // panel3
             // 
@@ -350,6 +461,15 @@ namespace Gym_Management_System
             this.label4.TabIndex = 1;
             this.label4.Text = "Rank";
             this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Gym_Management_System.Properties.Resources.ranking__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(19, 69);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(108, 124);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // employeeSalaryBindingSource
             // 
@@ -407,7 +527,7 @@ namespace Gym_Management_System
             this.salaryDataGridViewTextBoxColumn,
             this.statusDataGridViewTextBoxColumn,
             this.payDateDataGridViewTextBoxColumn});
-            this.serviceStaffRecords.DataSource = this.employeeSalaryBindingSource;
+            this.serviceStaffRecords.DataSource = this.employeeSalaryBindingSource2;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -482,6 +602,16 @@ namespace Gym_Management_System
             this.payDateDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.payDateDataGridViewTextBoxColumn.Name = "payDateDataGridViewTextBoxColumn";
             // 
+            // employeeSalaryBindingSource2
+            // 
+            this.employeeSalaryBindingSource2.DataMember = "Employee_Salary";
+            this.employeeSalaryBindingSource2.DataSource = this.gym_Management_SystemDataSet7;
+            // 
+            // gym_Management_SystemDataSet7
+            // 
+            this.gym_Management_SystemDataSet7.DataSetName = "Gym_Management_SystemDataSet7";
+            this.gym_Management_SystemDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // headerBar
             // 
             this.headerBar.Controls.Add(this.pictureBox7);
@@ -490,6 +620,15 @@ namespace Gym_Management_System
             this.headerBar.Name = "headerBar";
             this.headerBar.Size = new System.Drawing.Size(1173, 76);
             this.headerBar.TabIndex = 0;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Gym_Management_System.Properties.Resources.folder__1_;
+            this.pictureBox7.Location = new System.Drawing.Point(19, 23);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(44, 39);
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
             // 
             // Records
             // 
@@ -502,124 +641,23 @@ namespace Gym_Management_System
             this.Records.TabIndex = 0;
             this.Records.Text = "Service Staff Salary Records";
             // 
-            // pictureBox7
+            // gym_Management_SystemDataSet5
             // 
-            this.pictureBox7.Image = global::Gym_Management_System.Properties.Resources.folder__1_;
-            this.pictureBox7.Location = new System.Drawing.Point(19, 23);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(44, 39);
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
+            this.gym_Management_SystemDataSet5.DataSetName = "Gym_Management_SystemDataSet5";
+            this.gym_Management_SystemDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // pictureBox6
+            // employeeSalaryBindingSource1
             // 
-            this.pictureBox6.Image = global::Gym_Management_System.Properties.Resources.maps_and_flags__1_;
-            this.pictureBox6.Location = new System.Drawing.Point(19, 44);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(102, 124);
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
+            this.employeeSalaryBindingSource1.DataMember = "Employee_Salary";
+            this.employeeSalaryBindingSource1.DataSource = this.gym_Management_SystemDataSet5;
             // 
-            // pictureBox5
+            // employee_SalaryTableAdapter1
             // 
-            this.pictureBox5.Image = global::Gym_Management_System.Properties.Resources.age_group__1_;
-            this.pictureBox5.Location = new System.Drawing.Point(26, 32);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(120, 124);
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.employee_SalaryTableAdapter1.ClearBeforeFill = true;
             // 
-            // pictureBox4
+            // employee_SalaryTableAdapter2
             // 
-            this.pictureBox4.Image = global::Gym_Management_System.Properties.Resources.phone__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(23, 57);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(90, 124);
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Gym_Management_System.Properties.Resources.money__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(21, 64);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(120, 124);
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Gym_Management_System.Properties.Resources.ranking__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(19, 69);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(108, 124);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // logOutBtn
-            // 
-            this.logOutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logOutBtn.FlatAppearance.BorderSize = 0;
-            this.logOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logOutBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logOutBtn.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.logOutBtn.Image = global::Gym_Management_System.Properties.Resources.sign_out_alt;
-            this.logOutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.logOutBtn.Location = new System.Drawing.Point(0, 725);
-            this.logOutBtn.Name = "logOutBtn";
-            this.logOutBtn.Size = new System.Drawing.Size(379, 66);
-            this.logOutBtn.TabIndex = 3;
-            this.logOutBtn.Text = "Logout";
-            this.logOutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.logOutBtn.UseVisualStyleBackColor = true;
-            this.logOutBtn.Click += new System.EventHandler(this.logOutBtn_Click);
-            // 
-            // recordsBtn
-            // 
-            this.recordsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.recordsBtn.FlatAppearance.BorderSize = 0;
-            this.recordsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.recordsBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recordsBtn.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.recordsBtn.Image = global::Gym_Management_System.Properties.Resources.receipt;
-            this.recordsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.recordsBtn.Location = new System.Drawing.Point(0, 361);
-            this.recordsBtn.Name = "recordsBtn";
-            this.recordsBtn.Size = new System.Drawing.Size(379, 66);
-            this.recordsBtn.TabIndex = 2;
-            this.recordsBtn.Text = "Records";
-            this.recordsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.recordsBtn.UseVisualStyleBackColor = true;
-            this.recordsBtn.Click += new System.EventHandler(this.recordsBtn_Click);
-            // 
-            // profileBtn
-            // 
-            this.profileBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.profileBtn.FlatAppearance.BorderSize = 0;
-            this.profileBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.profileBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.profileBtn.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.profileBtn.Image = global::Gym_Management_System.Properties.Resources.user;
-            this.profileBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.profileBtn.Location = new System.Drawing.Point(0, 298);
-            this.profileBtn.Name = "profileBtn";
-            this.profileBtn.Size = new System.Drawing.Size(379, 63);
-            this.profileBtn.TabIndex = 1;
-            this.profileBtn.Text = "Profile";
-            this.profileBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.profileBtn.UseVisualStyleBackColor = true;
-            this.profileBtn.Click += new System.EventHandler(this.profileBtn_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Image = global::Gym_Management_System.Properties.Resources.profile__1__removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(119, 46);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(141, 133);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.employee_SalaryTableAdapter2.ClearBeforeFill = true;
             // 
             // ServiceStaff
             // 
@@ -639,31 +677,35 @@ namespace Gym_Management_System
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.profilePanel.ResumeLayout(false);
             this.profilePanel.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).EndInit();
             this.recordsPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.serviceStaffRecords)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet7)).EndInit();
             this.headerBar.ResumeLayout(false);
             this.headerBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -713,5 +755,11 @@ namespace Gym_Management_System
         private System.Windows.Forms.Panel headerBar;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label Records;
+        private Gym_Management_SystemDataSet5 gym_Management_SystemDataSet5;
+        private System.Windows.Forms.BindingSource employeeSalaryBindingSource1;
+        private Gym_Management_SystemDataSet5TableAdapters.Employee_SalaryTableAdapter employee_SalaryTableAdapter1;
+        private Gym_Management_SystemDataSet7 gym_Management_SystemDataSet7;
+        private System.Windows.Forms.BindingSource employeeSalaryBindingSource2;
+        private Gym_Management_SystemDataSet7TableAdapters.Employee_SalaryTableAdapter employee_SalaryTableAdapter2;
     }
 }

@@ -29,12 +29,14 @@ namespace Gym_Management_System
             Color header = BlendColors(darkCherry, brickRed, deepRed);
 
             headerBarProfile.BackColor = header;
-            //headerBarSalary.BackColor = header;
-            //headerBarFees.BackColor = header;
+            dietAndRoutineHeader.BackColor = header;
+            headerDataPanel.BackColor = header;
             //hearderBarEmployee.BackColor = header;
 
             panel1.BackColor = header;
             panel2.BackColor = header;
+
+            signUpBtn.BackColor = Color.Transparent;
         }
 
         private Color BlendColors(params Color[] colors)
@@ -137,8 +139,37 @@ namespace Gym_Management_System
         private void statsBtn_Click(object sender, EventArgs e)
         {
             statsPanel.Visible = true;
-            //recordsPanel.Visible = false;
-            //salaryPanel.Visible = false;
+            dietAndRoutinePanel.Visible = false;
+        }
+
+        private void dietAndRoutineBtn_Click(object sender, EventArgs e)
+        {
+            dietAndRoutinePanel.Visible = true;
+            updateDataPanel.Visible = false;
+        }
+
+        private void updateDatabtn_Click(object sender, EventArgs e)
+        {
+            updateDataPanel.Visible = true;
+        }
+
+        private void paymentbtn_Click(object sender, EventArgs e)
+        {
+
+            new BKashTransaction().Show();
+        }
+
+        private void packageBtn_Click(object sender, EventArgs e)
+        {
+            new Package().Show();
+        }
+
+        private void logOutBtn_Click(object sender, EventArgs e)
+        {
+            Welcome welcomeForm = new Welcome();
+            welcomeForm.FormClosed += (s, ev) => Application.Exit();
+            welcomeForm.Show();
+            this.Hide();
         }
 
         private void chart1_Click(object sender, EventArgs e)
@@ -154,6 +185,14 @@ namespace Gym_Management_System
             BreakDown_Pie_Chart();
         }
 
+        private void gymRoundedPanel8_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
+
+        private void gymTextBox4__TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

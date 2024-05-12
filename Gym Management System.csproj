@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,10 +99,65 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Gym_Management_SystemDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Gym_Management_SystemDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet13.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Gym_Management_SystemDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Gym_Management_SystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gym_Management_SystemDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gym_Management_SystemDataSet9.xsd</DependentUpon>
     </Compile>
     <Compile Include="ManagerForm.cs">
       <SubType>Form</SubType>
@@ -110,6 +171,12 @@
     <Compile Include="Member.Designer.cs">
       <DependentUpon>Member.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nutritionist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nutritionist.Designer.cs">
+      <DependentUpon>Nutritionist.cs</DependentUpon>
+    </Compile>
     <Compile Include="Package.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +188,12 @@
     </Compile>
     <Compile Include="ServiceStaff.Designer.cs">
       <DependentUpon>ServiceStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer.Designer.cs">
+      <DependentUpon>Trainer.cs</DependentUpon>
     </Compile>
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
@@ -136,6 +209,9 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AttendanceForm.resx">
       <DependentUpon>AttendanceForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +227,9 @@
     <EmbeddedResource Include="Member.resx">
       <DependentUpon>Member.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nutritionist.resx">
+      <DependentUpon>Nutritionist.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Package.resx">
       <DependentUpon>Package.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer.resx">
+      <DependentUpon>Trainer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
@@ -195,6 +277,50 @@
     <None Include="Gym_Management_SystemDataSet1.xss">
       <DependentUpon>Gym_Management_SystemDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="Gym_Management_SystemDataSet10.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet10.xss">
+      <DependentUpon>Gym_Management_SystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet11.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet11.xss">
+      <DependentUpon>Gym_Management_SystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet12.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet12.xss">
+      <DependentUpon>Gym_Management_SystemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet13.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet13.xss">
+      <DependentUpon>Gym_Management_SystemDataSet13.xsd</DependentUpon>
+    </None>
     <None Include="Gym_Management_SystemDataSet2.xsc">
       <DependentUpon>Gym_Management_SystemDataSet2.xsd</DependentUpon>
     </None>
@@ -205,6 +331,83 @@
     </None>
     <None Include="Gym_Management_SystemDataSet2.xss">
       <DependentUpon>Gym_Management_SystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet3.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet3.xss">
+      <DependentUpon>Gym_Management_SystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet4.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet4.xss">
+      <DependentUpon>Gym_Management_SystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet5.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet5.xss">
+      <DependentUpon>Gym_Management_SystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet6.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet6.xss">
+      <DependentUpon>Gym_Management_SystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet7.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet7.xss">
+      <DependentUpon>Gym_Management_SystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet8.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet8.xss">
+      <DependentUpon>Gym_Management_SystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet9.xsc">
+      <DependentUpon>Gym_Management_SystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Gym_Management_SystemDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gym_Management_SystemDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gym_Management_SystemDataSet9.xss">
+      <DependentUpon>Gym_Management_SystemDataSet9.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -398,6 +601,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bar-chart %281%29 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunrise %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bright-day %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart %281%29 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portfolio %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart %281%29 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

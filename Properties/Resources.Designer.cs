@@ -93,6 +93,16 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bar_chart__1_ {
+            get {
+                object obj = ResourceManager.GetObject("bar-chart (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bar_chart__1___1_ {
             get {
                 object obj = ResourceManager.GetObject("bar-chart (1) (1)", resourceCulture);
@@ -106,6 +116,26 @@ namespace Gym_Management_System.Properties {
         internal static System.Drawing.Bitmap bar_chart__1___1_1 {
             get {
                 object obj = ResourceManager.GetObject("bar-chart (1) (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bar_chart__1___2_ {
+            get {
+                object obj = ResourceManager.GetObject("bar-chart (1) (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bar_chart__1___2_1 {
+            get {
+                object obj = ResourceManager.GetObject("bar-chart (1) (2)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +183,69 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap box__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("box (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap box__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("box (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bright_day__1_ {
+            get {
+                object obj = ResourceManager.GetObject("bright-day (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap business_card__1_ {
             get {
                 object obj = ResourceManager.GetObject("business-card (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar__1_ {
+            get {
+                object obj = ResourceManager.GetObject("calendar (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("calendar (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar__1_2 {
+            get {
+                object obj = ResourceManager.GetObject("calendar (1)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,6 +473,16 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap moon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("moon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap muscles__1_ {
             get {
                 object obj = ResourceManager.GetObject("muscles (1)", resourceCulture);
@@ -436,6 +536,16 @@ namespace Gym_Management_System.Properties {
         internal static System.Drawing.Bitmap pikaso_texttoimage_35mm_film_photography_Luminous_modern_gym_space_wi {
             get {
                 object obj = ResourceManager.GetObject("pikaso_texttoimage_35mm-film-photography-Luminous-modern-gym-space-wi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap portfolio__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("portfolio (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -531,6 +641,16 @@ namespace Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap repeat__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("repeat (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap salary__1_ {
             get {
                 object obj = ResourceManager.GetObject("salary (1)", resourceCulture);
@@ -554,6 +674,36 @@ namespace Gym_Management_System.Properties {
         internal static System.Drawing.Bitmap sign_out_alt {
             get {
                 object obj = ResourceManager.GetObject("sign-out-alt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunrise__1_ {
+            get {
+                object obj = ResourceManager.GetObject("sunrise (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tip__1_ {
+            get {
+                object obj = ResourceManager.GetObject("tip (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tip__2_ {
+            get {
+                object obj = ResourceManager.GetObject("tip (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -30,17 +30,17 @@ namespace Gym_Management_System
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerForm));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.addEmployeebtn = new System.Windows.Forms.Button();
             this.memberFeebtn = new System.Windows.Forms.Button();
@@ -80,6 +80,26 @@ namespace Gym_Management_System
             this.recordsPanel = new System.Windows.Forms.Panel();
             this.salaryPanel = new System.Windows.Forms.Panel();
             this.feesPanel = new System.Windows.Forms.Panel();
+            this.employeePanel = new System.Windows.Forms.Panel();
+            this.employeeBorder = new System.Windows.Forms.Panel();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.label27 = new System.Windows.Forms.Label();
+            this.gymTextBox7 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.gymTextBox6 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.gymTextBox5 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.gymTextBox4 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.gymTextBox2 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.gymTextBox3 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.gymComboBox3 = new Gym_Management_System.CustomControls.GymComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.hearderBarEmployee = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.gymComboBox2 = new Gym_Management_System.CustomControls.GymComboBox();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
@@ -90,11 +110,21 @@ namespace Gym_Management_System
             this.payDateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.packageTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.memberTransactionsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.gym_Management_SystemDataSet2 = new Gym_Management_System.Gym_Management_SystemDataSet2();
+            this.memberTransactionsBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.gym_Management_SystemDataSet3 = new Gym_Management_System.Gym_Management_SystemDataSet3();
             this.headerBarFees = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
+            this.borderPanel = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.nametextBox = new Gym_Management_System.CustomControls.GymTextBox();
+            this.gymTextBox1 = new Gym_Management_System.CustomControls.GymTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.gymComboBox1 = new Gym_Management_System.CustomControls.GymComboBox();
+            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.label16 = new System.Windows.Forms.Label();
             this.headerBarSalary = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.labelSalary = new System.Windows.Forms.Label();
@@ -103,47 +133,23 @@ namespace Gym_Management_System
             this.salaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.payDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employeeSalaryBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.gym_Management_SystemDataSet = new Gym_Management_System.Gym_Management_SystemDataSet();
+            this.employeeSalaryBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.gym_Management_SystemDataSet4 = new Gym_Management_System.Gym_Management_SystemDataSet4();
             this.headerBar = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.Records = new System.Windows.Forms.Label();
+            this.memberTransactionsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.gym_Management_SystemDataSet2 = new Gym_Management_System.Gym_Management_SystemDataSet2();
+            this.employeeSalaryBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.gym_Management_SystemDataSet = new Gym_Management_System.Gym_Management_SystemDataSet();
             this.employee_SalaryTableAdapter = new Gym_Management_System.Gym_Management_SystemDataSetTableAdapters.Employee_SalaryTableAdapter();
             this.gym_Management_SystemDataSet1 = new Gym_Management_System.Gym_Management_SystemDataSet1();
             this.memberTransactionsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.memberTransactionsTableAdapter = new Gym_Management_System.Gym_Management_SystemDataSet1TableAdapters.MemberTransactionsTableAdapter();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.memberTransactionsTableAdapter1 = new Gym_Management_System.Gym_Management_SystemDataSet2TableAdapters.MemberTransactionsTableAdapter();
-            this.hearderBarEmployee = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.employeePanel = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.gymComboBox1 = new Gym_Management_System.CustomControls.GymComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.gymTextBox1 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.nametextBox = new Gym_Management_System.CustomControls.GymTextBox();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.label14 = new System.Windows.Forms.Label();
-            this.borderPanel = new System.Windows.Forms.Panel();
-            this.employeeBorder = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.gymComboBox3 = new Gym_Management_System.CustomControls.GymComboBox();
-            this.gymTextBox3 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.gymTextBox2 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.gymTextBox4 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.gymTextBox5 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.gymTextBox6 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.gymTextBox7 = new Gym_Management_System.CustomControls.GymTextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.memberTransactionsTableAdapter2 = new Gym_Management_System.Gym_Management_SystemDataSet3TableAdapters.MemberTransactionsTableAdapter();
+            this.employee_SalaryTableAdapter1 = new Gym_Management_System.Gym_Management_SystemDataSet4TableAdapters.Employee_SalaryTableAdapter();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -161,25 +167,29 @@ namespace Gym_Management_System
             this.recordsPanel.SuspendLayout();
             this.salaryPanel.SuspendLayout();
             this.feesPanel.SuspendLayout();
+            this.employeePanel.SuspendLayout();
+            this.employeeBorder.SuspendLayout();
+            this.hearderBarEmployee.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet3)).BeginInit();
             this.headerBarFees.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.borderPanel.SuspendLayout();
             this.headerBarSalary.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.serviceStaffRecords)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet4)).BeginInit();
             this.headerBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource)).BeginInit();
-            this.hearderBarEmployee.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.employeePanel.SuspendLayout();
-            this.borderPanel.SuspendLayout();
-            this.employeeBorder.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -622,7 +632,6 @@ namespace Gym_Management_System
             this.salaryPanel.Controls.Add(this.feesPanel);
             this.salaryPanel.Controls.Add(this.borderPanel);
             this.salaryPanel.Controls.Add(this.headerBarSalary);
-            this.salaryPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.salaryPanel.Location = new System.Drawing.Point(0, 0);
             this.salaryPanel.Name = "salaryPanel";
             this.salaryPanel.Size = new System.Drawing.Size(1406, 791);
@@ -636,11 +645,318 @@ namespace Gym_Management_System
             this.feesPanel.Controls.Add(this.gymComboBox2);
             this.feesPanel.Controls.Add(this.bunifuCustomDataGrid1);
             this.feesPanel.Controls.Add(this.headerBarFees);
-            this.feesPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.feesPanel.Location = new System.Drawing.Point(0, 0);
             this.feesPanel.Name = "feesPanel";
             this.feesPanel.Size = new System.Drawing.Size(1173, 791);
             this.feesPanel.TabIndex = 47;
+            // 
+            // employeePanel
+            // 
+            this.employeePanel.Controls.Add(this.employeeBorder);
+            this.employeePanel.Controls.Add(this.hearderBarEmployee);
+            this.employeePanel.Location = new System.Drawing.Point(0, 0);
+            this.employeePanel.Name = "employeePanel";
+            this.employeePanel.Size = new System.Drawing.Size(1194, 791);
+            this.employeePanel.TabIndex = 41;
+            // 
+            // employeeBorder
+            // 
+            this.employeeBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
+            this.employeeBorder.Controls.Add(this.bunifuThinButton21);
+            this.employeeBorder.Controls.Add(this.label27);
+            this.employeeBorder.Controls.Add(this.gymTextBox7);
+            this.employeeBorder.Controls.Add(this.label26);
+            this.employeeBorder.Controls.Add(this.gymTextBox6);
+            this.employeeBorder.Controls.Add(this.label25);
+            this.employeeBorder.Controls.Add(this.gymTextBox5);
+            this.employeeBorder.Controls.Add(this.label24);
+            this.employeeBorder.Controls.Add(this.gymTextBox4);
+            this.employeeBorder.Controls.Add(this.label23);
+            this.employeeBorder.Controls.Add(this.gymTextBox2);
+            this.employeeBorder.Controls.Add(this.label22);
+            this.employeeBorder.Controls.Add(this.gymTextBox3);
+            this.employeeBorder.Controls.Add(this.gymComboBox3);
+            this.employeeBorder.Controls.Add(this.label21);
+            this.employeeBorder.Location = new System.Drawing.Point(61, 134);
+            this.employeeBorder.Name = "employeeBorder";
+            this.employeeBorder.Padding = new System.Windows.Forms.Padding(3);
+            this.employeeBorder.Size = new System.Drawing.Size(1037, 607);
+            this.employeeBorder.TabIndex = 14;
+            // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Add Employee";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Red;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Red;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(503, 512);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(402, 66);
+            this.bunifuThinButton21.TabIndex = 52;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(499, 289);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(164, 23);
+            this.label27.TabIndex = 51;
+            this.label27.Text = "Enter Experience";
+            // 
+            // gymTextBox7
+            // 
+            this.gymTextBox7.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox7.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox7.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox7.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox7.BorderSize = 2;
+            this.gymTextBox7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox7.IsFocused = false;
+            this.gymTextBox7.IsFocused1 = false;
+            this.gymTextBox7.Location = new System.Drawing.Point(503, 328);
+            this.gymTextBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox7.Multiline = true;
+            this.gymTextBox7.Name = "gymTextBox7";
+            this.gymTextBox7.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox7.PasswordChar = false;
+            this.gymTextBox7.Size = new System.Drawing.Size(402, 154);
+            this.gymTextBox7.TabIndex = 50;
+            this.gymTextBox7.Texts = "";
+            this.gymTextBox7.UnderLinedStyle = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(499, 63);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(134, 23);
+            this.label26.TabIndex = 49;
+            this.label26.Text = "Enter Address";
+            // 
+            // gymTextBox6
+            // 
+            this.gymTextBox6.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox6.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox6.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox6.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox6.BorderSize = 2;
+            this.gymTextBox6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox6.IsFocused = false;
+            this.gymTextBox6.IsFocused1 = false;
+            this.gymTextBox6.Location = new System.Drawing.Point(503, 105);
+            this.gymTextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox6.Multiline = true;
+            this.gymTextBox6.Name = "gymTextBox6";
+            this.gymTextBox6.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox6.PasswordChar = false;
+            this.gymTextBox6.Size = new System.Drawing.Size(402, 152);
+            this.gymTextBox6.TabIndex = 48;
+            this.gymTextBox6.Texts = "";
+            this.gymTextBox6.UnderLinedStyle = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(53, 481);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(196, 23);
+            this.label25.TabIndex = 47;
+            this.label25.Text = "Enter Phone Number";
+            // 
+            // gymTextBox5
+            // 
+            this.gymTextBox5.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox5.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox5.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox5.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox5.BorderSize = 2;
+            this.gymTextBox5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox5.IsFocused = false;
+            this.gymTextBox5.IsFocused1 = false;
+            this.gymTextBox5.Location = new System.Drawing.Point(55, 525);
+            this.gymTextBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox5.Multiline = false;
+            this.gymTextBox5.Name = "gymTextBox5";
+            this.gymTextBox5.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox5.PasswordChar = false;
+            this.gymTextBox5.Size = new System.Drawing.Size(306, 35);
+            this.gymTextBox5.TabIndex = 46;
+            this.gymTextBox5.Texts = "";
+            this.gymTextBox5.UnderLinedStyle = false;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(51, 382);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(118, 23);
+            this.label24.TabIndex = 45;
+            this.label24.Text = "Enter Salary";
+            // 
+            // gymTextBox4
+            // 
+            this.gymTextBox4.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox4.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox4.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox4.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox4.BorderSize = 2;
+            this.gymTextBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox4.IsFocused = false;
+            this.gymTextBox4.IsFocused1 = false;
+            this.gymTextBox4.Location = new System.Drawing.Point(55, 425);
+            this.gymTextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox4.Multiline = false;
+            this.gymTextBox4.Name = "gymTextBox4";
+            this.gymTextBox4.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox4.PasswordChar = false;
+            this.gymTextBox4.Size = new System.Drawing.Size(306, 35);
+            this.gymTextBox4.TabIndex = 44;
+            this.gymTextBox4.Texts = "";
+            this.gymTextBox4.UnderLinedStyle = false;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(53, 284);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(99, 23);
+            this.label23.TabIndex = 43;
+            this.label23.Text = "Enter Age";
+            // 
+            // gymTextBox2
+            // 
+            this.gymTextBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox2.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox2.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox2.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox2.BorderSize = 2;
+            this.gymTextBox2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox2.IsFocused = false;
+            this.gymTextBox2.IsFocused1 = false;
+            this.gymTextBox2.Location = new System.Drawing.Point(55, 324);
+            this.gymTextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox2.Multiline = false;
+            this.gymTextBox2.Name = "gymTextBox2";
+            this.gymTextBox2.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox2.PasswordChar = false;
+            this.gymTextBox2.Size = new System.Drawing.Size(306, 35);
+            this.gymTextBox2.TabIndex = 42;
+            this.gymTextBox2.Texts = "";
+            this.gymTextBox2.UnderLinedStyle = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(53, 188);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(117, 23);
+            this.label22.TabIndex = 41;
+            this.label22.Text = "Enter Name";
+            // 
+            // gymTextBox3
+            // 
+            this.gymTextBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox3.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox3.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox3.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox3.BorderSize = 2;
+            this.gymTextBox3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox3.IsFocused = false;
+            this.gymTextBox3.IsFocused1 = false;
+            this.gymTextBox3.Location = new System.Drawing.Point(55, 229);
+            this.gymTextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox3.Multiline = false;
+            this.gymTextBox3.Name = "gymTextBox3";
+            this.gymTextBox3.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox3.PasswordChar = false;
+            this.gymTextBox3.Size = new System.Drawing.Size(306, 35);
+            this.gymTextBox3.TabIndex = 40;
+            this.gymTextBox3.Texts = "";
+            this.gymTextBox3.UnderLinedStyle = false;
+            // 
+            // gymComboBox3
+            // 
+            this.gymComboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.gymComboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.gymComboBox3.BackColor = System.Drawing.Color.White;
+            this.gymComboBox3.BorderColor = System.Drawing.Color.Black;
+            this.gymComboBox3.BorderSize = 2;
+            this.gymComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gymComboBox3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymComboBox3.ForeColor = System.Drawing.Color.DimGray;
+            this.gymComboBox3.IconColor = System.Drawing.Color.Black;
+            this.gymComboBox3.Items.AddRange(new object[] {
+            "Nutritionist",
+            "Fitness Trainer",
+            "Service Staff"});
+            this.gymComboBox3.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.gymComboBox3.ListTextColor = System.Drawing.Color.DimGray;
+            this.gymComboBox3.Location = new System.Drawing.Point(57, 111);
+            this.gymComboBox3.MinimumSize = new System.Drawing.Size(200, 30);
+            this.gymComboBox3.Name = "gymComboBox3";
+            this.gymComboBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.gymComboBox3.Size = new System.Drawing.Size(304, 40);
+            this.gymComboBox3.TabIndex = 39;
+            this.gymComboBox3.Texts = "Select";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(53, 67);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(165, 23);
+            this.label21.TabIndex = 25;
+            this.label21.Text = "Select Employee";
+            // 
+            // hearderBarEmployee
+            // 
+            this.hearderBarEmployee.Controls.Add(this.pictureBox10);
+            this.hearderBarEmployee.Controls.Add(this.label20);
+            this.hearderBarEmployee.Location = new System.Drawing.Point(0, 0);
+            this.hearderBarEmployee.Name = "hearderBarEmployee";
+            this.hearderBarEmployee.Size = new System.Drawing.Size(1164, 76);
+            this.hearderBarEmployee.TabIndex = 13;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::Gym_Management_System.Properties.Resources.employee__1_1;
+            this.pictureBox10.Location = new System.Drawing.Point(30, 21);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(44, 39);
+            this.pictureBox10.TabIndex = 1;
+            this.pictureBox10.TabStop = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(80, 26);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(205, 23);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Add New Employee";
             // 
             // label19
             // 
@@ -691,24 +1007,24 @@ namespace Gym_Management_System
             this.bunifuCustomDataGrid1.AllowUserToAddRows = false;
             this.bunifuCustomDataGrid1.AllowUserToResizeColumns = false;
             this.bunifuCustomDataGrid1.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.DarkRed;
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.DarkRed;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
             this.bunifuCustomDataGrid1.AutoGenerateColumns = false;
             this.bunifuCustomDataGrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.White;
             this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.bunifuCustomDataGrid1.ColumnHeadersHeight = 30;
             this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.bunifuCustomDataGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -719,15 +1035,15 @@ namespace Gym_Management_System
             this.payDateDataGridViewTextBoxColumn1,
             this.statusDataGridViewTextBoxColumn1,
             this.packageTypeDataGridViewTextBoxColumn});
-            this.bunifuCustomDataGrid1.DataSource = this.memberTransactionsBindingSource1;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuCustomDataGrid1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.bunifuCustomDataGrid1.DataSource = this.memberTransactionsBindingSource2;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuCustomDataGrid1.DefaultCellStyle = dataGridViewCellStyle13;
             this.bunifuCustomDataGrid1.DoubleBuffered = true;
             this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
             this.bunifuCustomDataGrid1.GridColor = System.Drawing.Color.Black;
@@ -738,13 +1054,13 @@ namespace Gym_Management_System
             this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bunifuCustomDataGrid1.RowHeadersVisible = false;
             this.bunifuCustomDataGrid1.RowHeadersWidth = 51;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.RowsDefaultCellStyle = dataGridViewCellStyle14;
             this.bunifuCustomDataGrid1.RowTemplate.Height = 25;
             this.bunifuCustomDataGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1093, 427);
@@ -799,15 +1115,15 @@ namespace Gym_Management_System
             this.packageTypeDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.packageTypeDataGridViewTextBoxColumn.Name = "packageTypeDataGridViewTextBoxColumn";
             // 
-            // memberTransactionsBindingSource1
+            // memberTransactionsBindingSource2
             // 
-            this.memberTransactionsBindingSource1.DataMember = "MemberTransactions";
-            this.memberTransactionsBindingSource1.DataSource = this.gym_Management_SystemDataSet2;
+            this.memberTransactionsBindingSource2.DataMember = "MemberTransactions";
+            this.memberTransactionsBindingSource2.DataSource = this.gym_Management_SystemDataSet3;
             // 
-            // gym_Management_SystemDataSet2
+            // gym_Management_SystemDataSet3
             // 
-            this.gym_Management_SystemDataSet2.DataSetName = "Gym_Management_SystemDataSet2";
-            this.gym_Management_SystemDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.gym_Management_SystemDataSet3.DataSetName = "Gym_Management_SystemDataSet3";
+            this.gym_Management_SystemDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // headerBarFees
             // 
@@ -837,6 +1153,177 @@ namespace Gym_Management_System
             this.label18.Size = new System.Drawing.Size(241, 23);
             this.label18.TabIndex = 0;
             this.label18.Text = "Member Fees\'s Records";
+            // 
+            // borderPanel
+            // 
+            this.borderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
+            this.borderPanel.Controls.Add(this.label14);
+            this.borderPanel.Controls.Add(this.bunifuThinButton23);
+            this.borderPanel.Controls.Add(this.nametextBox);
+            this.borderPanel.Controls.Add(this.gymTextBox1);
+            this.borderPanel.Controls.Add(this.label17);
+            this.borderPanel.Controls.Add(this.label15);
+            this.borderPanel.Controls.Add(this.gymComboBox1);
+            this.borderPanel.Controls.Add(this.bunifuDatepicker1);
+            this.borderPanel.Controls.Add(this.label16);
+            this.borderPanel.Location = new System.Drawing.Point(55, 134);
+            this.borderPanel.Name = "borderPanel";
+            this.borderPanel.Padding = new System.Windows.Forms.Padding(3);
+            this.borderPanel.Size = new System.Drawing.Size(1049, 613);
+            this.borderPanel.TabIndex = 46;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(362, 25);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(176, 23);
+            this.label14.TabIndex = 13;
+            this.label14.Text = "Enter Employee ID";
+            // 
+            // bunifuThinButton23
+            // 
+            this.bunifuThinButton23.ActiveBorderThickness = 1;
+            this.bunifuThinButton23.ActiveCornerRadius = 20;
+            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Black;
+            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
+            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
+            this.bunifuThinButton23.ButtonText = "Pay";
+            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton23.ForeColor = System.Drawing.Color.Red;
+            this.bunifuThinButton23.IdleBorderThickness = 1;
+            this.bunifuThinButton23.IdleCornerRadius = 20;
+            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Red;
+            this.bunifuThinButton23.Location = new System.Drawing.Point(357, 450);
+            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton23.Name = "bunifuThinButton23";
+            this.bunifuThinButton23.Size = new System.Drawing.Size(304, 66);
+            this.bunifuThinButton23.TabIndex = 45;
+            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nametextBox
+            // 
+            this.nametextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.nametextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.nametextBox.BorderColor = System.Drawing.Color.Black;
+            this.nametextBox.BorderFocusColor = System.Drawing.Color.Red;
+            this.nametextBox.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.nametextBox.BorderSize = 2;
+            this.nametextBox.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nametextBox.IsFocused = false;
+            this.nametextBox.IsFocused1 = false;
+            this.nametextBox.Location = new System.Drawing.Point(357, 67);
+            this.nametextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nametextBox.Multiline = false;
+            this.nametextBox.Name = "nametextBox";
+            this.nametextBox.Padding = new System.Windows.Forms.Padding(7);
+            this.nametextBox.PasswordChar = false;
+            this.nametextBox.Size = new System.Drawing.Size(306, 35);
+            this.nametextBox.TabIndex = 12;
+            this.nametextBox.Texts = "";
+            this.nametextBox.UnderLinedStyle = false;
+            // 
+            // gymTextBox1
+            // 
+            this.gymTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.gymTextBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.gymTextBox1.BorderColor = System.Drawing.Color.Black;
+            this.gymTextBox1.BorderFocusColor = System.Drawing.Color.Red;
+            this.gymTextBox1.BorderFocusColor1 = System.Drawing.Color.Red;
+            this.gymTextBox1.BorderSize = 2;
+            this.gymTextBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymTextBox1.IsFocused = false;
+            this.gymTextBox1.IsFocused1 = false;
+            this.gymTextBox1.Location = new System.Drawing.Point(357, 371);
+            this.gymTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.gymTextBox1.Multiline = false;
+            this.gymTextBox1.Name = "gymTextBox1";
+            this.gymTextBox1.Padding = new System.Windows.Forms.Padding(7);
+            this.gymTextBox1.PasswordChar = false;
+            this.gymTextBox1.Size = new System.Drawing.Size(306, 35);
+            this.gymTextBox1.TabIndex = 43;
+            this.gymTextBox1.Texts = "";
+            this.gymTextBox1.UnderLinedStyle = false;
+            this.gymTextBox1._TextChanged += new System.EventHandler(this.gymTextBox1__TextChanged);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(362, 337);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(132, 23);
+            this.label17.TabIndex = 44;
+            this.label17.Text = "Enter Amount";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(360, 122);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(178, 23);
+            this.label15.TabIndex = 40;
+            this.label15.Text = "Choose Employee";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // gymComboBox1
+            // 
+            this.gymComboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.gymComboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.gymComboBox1.BackColor = System.Drawing.Color.White;
+            this.gymComboBox1.BorderColor = System.Drawing.Color.Black;
+            this.gymComboBox1.BorderSize = 2;
+            this.gymComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gymComboBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gymComboBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.gymComboBox1.IconColor = System.Drawing.Color.Black;
+            this.gymComboBox1.Items.AddRange(new object[] {
+            "Nutritionist",
+            "Fitness Trainer",
+            "Service Staff"});
+            this.gymComboBox1.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.gymComboBox1.ListTextColor = System.Drawing.Color.DimGray;
+            this.gymComboBox1.Location = new System.Drawing.Point(357, 164);
+            this.gymComboBox1.MinimumSize = new System.Drawing.Size(200, 30);
+            this.gymComboBox1.Name = "gymComboBox1";
+            this.gymComboBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.gymComboBox1.Size = new System.Drawing.Size(304, 40);
+            this.gymComboBox1.TabIndex = 39;
+            this.gymComboBox1.Texts = "Select";
+            // 
+            // bunifuDatepicker1
+            // 
+            this.bunifuDatepicker1.BackColor = System.Drawing.Color.White;
+            this.bunifuDatepicker1.BorderRadius = 0;
+            this.bunifuDatepicker1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuDatepicker1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker1.FormatCustom = null;
+            this.bunifuDatepicker1.Location = new System.Drawing.Point(357, 272);
+            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
+            this.bunifuDatepicker1.Size = new System.Drawing.Size(306, 40);
+            this.bunifuDatepicker1.TabIndex = 41;
+            this.bunifuDatepicker1.Value = new System.DateTime(2024, 4, 9, 17, 39, 3, 405);
+            this.bunifuDatepicker1.onValueChanged += new System.EventHandler(this.bunifuDatepicker1_onValueChanged);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(360, 228);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(129, 23);
+            this.label16.TabIndex = 42;
+            this.label16.Text = "Choose Date";
             // 
             // headerBarSalary
             // 
@@ -874,24 +1361,24 @@ namespace Gym_Management_System
             this.serviceStaffRecords.AllowUserToDeleteRows = false;
             this.serviceStaffRecords.AllowUserToResizeColumns = false;
             this.serviceStaffRecords.AllowUserToResizeRows = false;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkRed;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            this.serviceStaffRecords.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.DarkRed;
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.DarkRed;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
+            this.serviceStaffRecords.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
             this.serviceStaffRecords.AutoGenerateColumns = false;
             this.serviceStaffRecords.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.serviceStaffRecords.BackgroundColor = System.Drawing.Color.White;
             this.serviceStaffRecords.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.serviceStaffRecords.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.serviceStaffRecords.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.serviceStaffRecords.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
             this.serviceStaffRecords.ColumnHeadersHeight = 30;
             this.serviceStaffRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.serviceStaffRecords.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -899,15 +1386,15 @@ namespace Gym_Management_System
             this.salaryDataGridViewTextBoxColumn,
             this.statusDataGridViewTextBoxColumn,
             this.payDateDataGridViewTextBoxColumn});
-            this.serviceStaffRecords.DataSource = this.employeeSalaryBindingSource;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.serviceStaffRecords.DefaultCellStyle = dataGridViewCellStyle8;
+            this.serviceStaffRecords.DataSource = this.employeeSalaryBindingSource1;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.serviceStaffRecords.DefaultCellStyle = dataGridViewCellStyle18;
             this.serviceStaffRecords.DoubleBuffered = true;
             this.serviceStaffRecords.EnableHeadersVisualStyles = false;
             this.serviceStaffRecords.GridColor = System.Drawing.Color.Black;
@@ -918,13 +1405,13 @@ namespace Gym_Management_System
             this.serviceStaffRecords.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.serviceStaffRecords.RowHeadersVisible = false;
             this.serviceStaffRecords.RowHeadersWidth = 51;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
-            this.serviceStaffRecords.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.White;
+            this.serviceStaffRecords.RowsDefaultCellStyle = dataGridViewCellStyle19;
             this.serviceStaffRecords.RowTemplate.Height = 25;
             this.serviceStaffRecords.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.serviceStaffRecords.Size = new System.Drawing.Size(998, 344);
@@ -940,9 +1427,9 @@ namespace Gym_Management_System
             // salaryDataGridViewTextBoxColumn
             // 
             this.salaryDataGridViewTextBoxColumn.DataPropertyName = "Salary";
-            dataGridViewCellStyle7.Format = "C2";
-            dataGridViewCellStyle7.NullValue = null;
-            this.salaryDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle17.Format = "C2";
+            dataGridViewCellStyle17.NullValue = null;
+            this.salaryDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle17;
             this.salaryDataGridViewTextBoxColumn.HeaderText = "Salary";
             this.salaryDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.salaryDataGridViewTextBoxColumn.Name = "salaryDataGridViewTextBoxColumn";
@@ -961,15 +1448,15 @@ namespace Gym_Management_System
             this.payDateDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.payDateDataGridViewTextBoxColumn.Name = "payDateDataGridViewTextBoxColumn";
             // 
-            // employeeSalaryBindingSource
+            // employeeSalaryBindingSource1
             // 
-            this.employeeSalaryBindingSource.DataMember = "Employee_Salary";
-            this.employeeSalaryBindingSource.DataSource = this.gym_Management_SystemDataSet;
+            this.employeeSalaryBindingSource1.DataMember = "Employee_Salary";
+            this.employeeSalaryBindingSource1.DataSource = this.gym_Management_SystemDataSet4;
             // 
-            // gym_Management_SystemDataSet
+            // gym_Management_SystemDataSet4
             // 
-            this.gym_Management_SystemDataSet.DataSetName = "Gym_Management_SystemDataSet";
-            this.gym_Management_SystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.gym_Management_SystemDataSet4.DataSetName = "Gym_Management_SystemDataSet4";
+            this.gym_Management_SystemDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // headerBar
             // 
@@ -1000,6 +1487,26 @@ namespace Gym_Management_System
             this.Records.TabIndex = 0;
             this.Records.Text = "Manager Salary Records";
             // 
+            // memberTransactionsBindingSource1
+            // 
+            this.memberTransactionsBindingSource1.DataMember = "MemberTransactions";
+            this.memberTransactionsBindingSource1.DataSource = this.gym_Management_SystemDataSet2;
+            // 
+            // gym_Management_SystemDataSet2
+            // 
+            this.gym_Management_SystemDataSet2.DataSetName = "Gym_Management_SystemDataSet2";
+            this.gym_Management_SystemDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // employeeSalaryBindingSource
+            // 
+            this.employeeSalaryBindingSource.DataMember = "Employee_Salary";
+            this.employeeSalaryBindingSource.DataSource = this.gym_Management_SystemDataSet;
+            // 
+            // gym_Management_SystemDataSet
+            // 
+            this.gym_Management_SystemDataSet.DataSetName = "Gym_Management_SystemDataSet";
+            this.gym_Management_SystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // employee_SalaryTableAdapter
             // 
             this.employee_SalaryTableAdapter.ClearBeforeFill = true;
@@ -1021,8 +1528,8 @@ namespace Gym_Management_System
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "Status";
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle20;
             this.dataGridViewTextBoxColumn3.HeaderText = "Status";
             this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
@@ -1032,484 +1539,13 @@ namespace Gym_Management_System
             // 
             this.memberTransactionsTableAdapter1.ClearBeforeFill = true;
             // 
-            // hearderBarEmployee
+            // memberTransactionsTableAdapter2
             // 
-            this.hearderBarEmployee.Controls.Add(this.pictureBox10);
-            this.hearderBarEmployee.Controls.Add(this.label20);
-            this.hearderBarEmployee.Location = new System.Drawing.Point(0, 0);
-            this.hearderBarEmployee.Name = "hearderBarEmployee";
-            this.hearderBarEmployee.Size = new System.Drawing.Size(1164, 76);
-            this.hearderBarEmployee.TabIndex = 13;
+            this.memberTransactionsTableAdapter2.ClearBeforeFill = true;
             // 
-            // label20
+            // employee_SalaryTableAdapter1
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(80, 26);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(205, 23);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Add New Employee";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Gym_Management_System.Properties.Resources.employee__1_1;
-            this.pictureBox10.Location = new System.Drawing.Point(30, 21);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(44, 39);
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
-            // 
-            // employeePanel
-            // 
-            this.employeePanel.Controls.Add(this.employeeBorder);
-            this.employeePanel.Controls.Add(this.hearderBarEmployee);
-            this.employeePanel.Location = new System.Drawing.Point(0, 0);
-            this.employeePanel.Name = "employeePanel";
-            this.employeePanel.Size = new System.Drawing.Size(1194, 791);
-            this.employeePanel.TabIndex = 41;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(360, 228);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(129, 23);
-            this.label16.TabIndex = 42;
-            this.label16.Text = "Choose Date";
-            // 
-            // bunifuDatepicker1
-            // 
-            this.bunifuDatepicker1.BackColor = System.Drawing.Color.White;
-            this.bunifuDatepicker1.BorderRadius = 0;
-            this.bunifuDatepicker1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuDatepicker1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker1.FormatCustom = null;
-            this.bunifuDatepicker1.Location = new System.Drawing.Point(357, 272);
-            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
-            this.bunifuDatepicker1.Size = new System.Drawing.Size(306, 40);
-            this.bunifuDatepicker1.TabIndex = 41;
-            this.bunifuDatepicker1.Value = new System.DateTime(2024, 4, 9, 17, 39, 3, 405);
-            this.bunifuDatepicker1.onValueChanged += new System.EventHandler(this.bunifuDatepicker1_onValueChanged);
-            // 
-            // gymComboBox1
-            // 
-            this.gymComboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.gymComboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.gymComboBox1.BackColor = System.Drawing.Color.White;
-            this.gymComboBox1.BorderColor = System.Drawing.Color.Black;
-            this.gymComboBox1.BorderSize = 2;
-            this.gymComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gymComboBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymComboBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.gymComboBox1.IconColor = System.Drawing.Color.Black;
-            this.gymComboBox1.Items.AddRange(new object[] {
-            "Nutritionist",
-            "Fitness Trainer",
-            "Service Staff"});
-            this.gymComboBox1.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
-            this.gymComboBox1.ListTextColor = System.Drawing.Color.DimGray;
-            this.gymComboBox1.Location = new System.Drawing.Point(357, 164);
-            this.gymComboBox1.MinimumSize = new System.Drawing.Size(200, 30);
-            this.gymComboBox1.Name = "gymComboBox1";
-            this.gymComboBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.gymComboBox1.Size = new System.Drawing.Size(304, 40);
-            this.gymComboBox1.TabIndex = 39;
-            this.gymComboBox1.Texts = "Select";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(360, 122);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(178, 23);
-            this.label15.TabIndex = 40;
-            this.label15.Text = "Choose Employee";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(362, 337);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(132, 23);
-            this.label17.TabIndex = 44;
-            this.label17.Text = "Enter Amount";
-            // 
-            // gymTextBox1
-            // 
-            this.gymTextBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.gymTextBox1.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox1.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox1.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox1.BorderSize = 2;
-            this.gymTextBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox1.IsFocused = false;
-            this.gymTextBox1.IsFocused1 = false;
-            this.gymTextBox1.Location = new System.Drawing.Point(357, 371);
-            this.gymTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox1.Multiline = false;
-            this.gymTextBox1.Name = "gymTextBox1";
-            this.gymTextBox1.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox1.PasswordChar = false;
-            this.gymTextBox1.Size = new System.Drawing.Size(306, 35);
-            this.gymTextBox1.TabIndex = 43;
-            this.gymTextBox1.Texts = "";
-            this.gymTextBox1.UnderLinedStyle = false;
-            this.gymTextBox1._TextChanged += new System.EventHandler(this.gymTextBox1__TextChanged);
-            // 
-            // nametextBox
-            // 
-            this.nametextBox.BackColor = System.Drawing.SystemColors.Window;
-            this.nametextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.nametextBox.BorderColor = System.Drawing.Color.Black;
-            this.nametextBox.BorderFocusColor = System.Drawing.Color.Red;
-            this.nametextBox.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.nametextBox.BorderSize = 2;
-            this.nametextBox.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nametextBox.IsFocused = false;
-            this.nametextBox.IsFocused1 = false;
-            this.nametextBox.Location = new System.Drawing.Point(357, 67);
-            this.nametextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.nametextBox.Multiline = false;
-            this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Padding = new System.Windows.Forms.Padding(7);
-            this.nametextBox.PasswordChar = false;
-            this.nametextBox.Size = new System.Drawing.Size(306, 35);
-            this.nametextBox.TabIndex = 12;
-            this.nametextBox.Texts = "";
-            this.nametextBox.UnderLinedStyle = false;
-            // 
-            // bunifuThinButton23
-            // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.Red;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "Pay";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.Red;
-            this.bunifuThinButton23.IdleBorderThickness = 1;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Red;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(357, 450);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(304, 66);
-            this.bunifuThinButton23.TabIndex = 45;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(362, 25);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(176, 23);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "Enter Employee ID";
-            // 
-            // borderPanel
-            // 
-            this.borderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
-            this.borderPanel.Controls.Add(this.label14);
-            this.borderPanel.Controls.Add(this.bunifuThinButton23);
-            this.borderPanel.Controls.Add(this.nametextBox);
-            this.borderPanel.Controls.Add(this.gymTextBox1);
-            this.borderPanel.Controls.Add(this.label17);
-            this.borderPanel.Controls.Add(this.label15);
-            this.borderPanel.Controls.Add(this.gymComboBox1);
-            this.borderPanel.Controls.Add(this.bunifuDatepicker1);
-            this.borderPanel.Controls.Add(this.label16);
-            this.borderPanel.Location = new System.Drawing.Point(55, 134);
-            this.borderPanel.Name = "borderPanel";
-            this.borderPanel.Padding = new System.Windows.Forms.Padding(3);
-            this.borderPanel.Size = new System.Drawing.Size(1049, 613);
-            this.borderPanel.TabIndex = 46;
-            // 
-            // employeeBorder
-            // 
-            this.employeeBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
-            this.employeeBorder.Controls.Add(this.bunifuThinButton21);
-            this.employeeBorder.Controls.Add(this.label27);
-            this.employeeBorder.Controls.Add(this.gymTextBox7);
-            this.employeeBorder.Controls.Add(this.label26);
-            this.employeeBorder.Controls.Add(this.gymTextBox6);
-            this.employeeBorder.Controls.Add(this.label25);
-            this.employeeBorder.Controls.Add(this.gymTextBox5);
-            this.employeeBorder.Controls.Add(this.label24);
-            this.employeeBorder.Controls.Add(this.gymTextBox4);
-            this.employeeBorder.Controls.Add(this.label23);
-            this.employeeBorder.Controls.Add(this.gymTextBox2);
-            this.employeeBorder.Controls.Add(this.label22);
-            this.employeeBorder.Controls.Add(this.gymTextBox3);
-            this.employeeBorder.Controls.Add(this.gymComboBox3);
-            this.employeeBorder.Controls.Add(this.label21);
-            this.employeeBorder.Location = new System.Drawing.Point(61, 134);
-            this.employeeBorder.Name = "employeeBorder";
-            this.employeeBorder.Padding = new System.Windows.Forms.Padding(3);
-            this.employeeBorder.Size = new System.Drawing.Size(1037, 607);
-            this.employeeBorder.TabIndex = 14;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(53, 67);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(165, 23);
-            this.label21.TabIndex = 25;
-            this.label21.Text = "Select Employee";
-            // 
-            // gymComboBox3
-            // 
-            this.gymComboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.gymComboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.gymComboBox3.BackColor = System.Drawing.Color.White;
-            this.gymComboBox3.BorderColor = System.Drawing.Color.Black;
-            this.gymComboBox3.BorderSize = 2;
-            this.gymComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gymComboBox3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymComboBox3.ForeColor = System.Drawing.Color.DimGray;
-            this.gymComboBox3.IconColor = System.Drawing.Color.Black;
-            this.gymComboBox3.Items.AddRange(new object[] {
-            "Nutritionist",
-            "Fitness Trainer",
-            "Service Staff"});
-            this.gymComboBox3.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
-            this.gymComboBox3.ListTextColor = System.Drawing.Color.DimGray;
-            this.gymComboBox3.Location = new System.Drawing.Point(57, 111);
-            this.gymComboBox3.MinimumSize = new System.Drawing.Size(200, 30);
-            this.gymComboBox3.Name = "gymComboBox3";
-            this.gymComboBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.gymComboBox3.Size = new System.Drawing.Size(304, 40);
-            this.gymComboBox3.TabIndex = 39;
-            this.gymComboBox3.Texts = "Select";
-            // 
-            // gymTextBox3
-            // 
-            this.gymTextBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox3.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox3.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox3.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox3.BorderSize = 2;
-            this.gymTextBox3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox3.IsFocused = false;
-            this.gymTextBox3.IsFocused1 = false;
-            this.gymTextBox3.Location = new System.Drawing.Point(55, 229);
-            this.gymTextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox3.Multiline = false;
-            this.gymTextBox3.Name = "gymTextBox3";
-            this.gymTextBox3.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox3.PasswordChar = false;
-            this.gymTextBox3.Size = new System.Drawing.Size(306, 35);
-            this.gymTextBox3.TabIndex = 40;
-            this.gymTextBox3.Texts = "";
-            this.gymTextBox3.UnderLinedStyle = false;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(53, 188);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(117, 23);
-            this.label22.TabIndex = 41;
-            this.label22.Text = "Enter Name";
-            // 
-            // gymTextBox2
-            // 
-            this.gymTextBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox2.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox2.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox2.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox2.BorderSize = 2;
-            this.gymTextBox2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox2.IsFocused = false;
-            this.gymTextBox2.IsFocused1 = false;
-            this.gymTextBox2.Location = new System.Drawing.Point(55, 324);
-            this.gymTextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox2.Multiline = false;
-            this.gymTextBox2.Name = "gymTextBox2";
-            this.gymTextBox2.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox2.PasswordChar = false;
-            this.gymTextBox2.Size = new System.Drawing.Size(306, 35);
-            this.gymTextBox2.TabIndex = 42;
-            this.gymTextBox2.Texts = "";
-            this.gymTextBox2.UnderLinedStyle = false;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(53, 284);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(99, 23);
-            this.label23.TabIndex = 43;
-            this.label23.Text = "Enter Age";
-            // 
-            // gymTextBox4
-            // 
-            this.gymTextBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox4.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox4.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox4.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox4.BorderSize = 2;
-            this.gymTextBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox4.IsFocused = false;
-            this.gymTextBox4.IsFocused1 = false;
-            this.gymTextBox4.Location = new System.Drawing.Point(55, 425);
-            this.gymTextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox4.Multiline = false;
-            this.gymTextBox4.Name = "gymTextBox4";
-            this.gymTextBox4.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox4.PasswordChar = false;
-            this.gymTextBox4.Size = new System.Drawing.Size(306, 35);
-            this.gymTextBox4.TabIndex = 44;
-            this.gymTextBox4.Texts = "";
-            this.gymTextBox4.UnderLinedStyle = false;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(51, 382);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(118, 23);
-            this.label24.TabIndex = 45;
-            this.label24.Text = "Enter Salary";
-            // 
-            // gymTextBox5
-            // 
-            this.gymTextBox5.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox5.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox5.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox5.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox5.BorderSize = 2;
-            this.gymTextBox5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox5.IsFocused = false;
-            this.gymTextBox5.IsFocused1 = false;
-            this.gymTextBox5.Location = new System.Drawing.Point(55, 525);
-            this.gymTextBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox5.Multiline = false;
-            this.gymTextBox5.Name = "gymTextBox5";
-            this.gymTextBox5.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox5.PasswordChar = false;
-            this.gymTextBox5.Size = new System.Drawing.Size(306, 35);
-            this.gymTextBox5.TabIndex = 46;
-            this.gymTextBox5.Texts = "";
-            this.gymTextBox5.UnderLinedStyle = false;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(53, 481);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(196, 23);
-            this.label25.TabIndex = 47;
-            this.label25.Text = "Enter Phone Number";
-            // 
-            // gymTextBox6
-            // 
-            this.gymTextBox6.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox6.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox6.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox6.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox6.BorderSize = 2;
-            this.gymTextBox6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox6.IsFocused = false;
-            this.gymTextBox6.IsFocused1 = false;
-            this.gymTextBox6.Location = new System.Drawing.Point(503, 105);
-            this.gymTextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox6.Multiline = true;
-            this.gymTextBox6.Name = "gymTextBox6";
-            this.gymTextBox6.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox6.PasswordChar = false;
-            this.gymTextBox6.Size = new System.Drawing.Size(402, 152);
-            this.gymTextBox6.TabIndex = 48;
-            this.gymTextBox6.Texts = "";
-            this.gymTextBox6.UnderLinedStyle = false;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(499, 63);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(134, 23);
-            this.label26.TabIndex = 49;
-            this.label26.Text = "Enter Address";
-            // 
-            // gymTextBox7
-            // 
-            this.gymTextBox7.BackColor = System.Drawing.SystemColors.Window;
-            this.gymTextBox7.BorderColor = System.Drawing.Color.Black;
-            this.gymTextBox7.BorderFocusColor = System.Drawing.Color.Red;
-            this.gymTextBox7.BorderFocusColor1 = System.Drawing.Color.Red;
-            this.gymTextBox7.BorderSize = 2;
-            this.gymTextBox7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gymTextBox7.IsFocused = false;
-            this.gymTextBox7.IsFocused1 = false;
-            this.gymTextBox7.Location = new System.Drawing.Point(503, 328);
-            this.gymTextBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.gymTextBox7.Multiline = true;
-            this.gymTextBox7.Name = "gymTextBox7";
-            this.gymTextBox7.Padding = new System.Windows.Forms.Padding(7);
-            this.gymTextBox7.PasswordChar = false;
-            this.gymTextBox7.Size = new System.Drawing.Size(402, 154);
-            this.gymTextBox7.TabIndex = 50;
-            this.gymTextBox7.Texts = "";
-            this.gymTextBox7.UnderLinedStyle = false;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(499, 289);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(164, 23);
-            this.label27.TabIndex = 51;
-            this.label27.Text = "Enter Experience";
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Red;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(117)))), ((int)(((byte)(112)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Add Employee";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Red;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Red;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(503, 512);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(402, 66);
-            this.bunifuThinButton21.TabIndex = 52;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.employee_SalaryTableAdapter1.ClearBeforeFill = true;
             // 
             // ManagerForm
             // 
@@ -1550,31 +1586,35 @@ namespace Gym_Management_System
             this.salaryPanel.ResumeLayout(false);
             this.feesPanel.ResumeLayout(false);
             this.feesPanel.PerformLayout();
+            this.employeePanel.ResumeLayout(false);
+            this.employeeBorder.ResumeLayout(false);
+            this.employeeBorder.PerformLayout();
+            this.hearderBarEmployee.ResumeLayout(false);
+            this.hearderBarEmployee.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet3)).EndInit();
             this.headerBarFees.ResumeLayout(false);
             this.headerBarFees.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.borderPanel.ResumeLayout(false);
+            this.borderPanel.PerformLayout();
             this.headerBarSalary.ResumeLayout(false);
             this.headerBarSalary.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.serviceStaffRecords)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet4)).EndInit();
             this.headerBar.ResumeLayout(false);
             this.headerBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeSalaryBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gym_Management_SystemDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memberTransactionsBindingSource)).EndInit();
-            this.hearderBarEmployee.ResumeLayout(false);
-            this.hearderBarEmployee.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.employeePanel.ResumeLayout(false);
-            this.borderPanel.ResumeLayout(false);
-            this.borderPanel.PerformLayout();
-            this.employeeBorder.ResumeLayout(false);
-            this.employeeBorder.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1684,5 +1724,11 @@ namespace Gym_Management_System
         private System.Windows.Forms.Label label22;
         private CustomControls.GymTextBox gymTextBox3;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Gym_Management_SystemDataSet3 gym_Management_SystemDataSet3;
+        private System.Windows.Forms.BindingSource memberTransactionsBindingSource2;
+        private Gym_Management_SystemDataSet3TableAdapters.MemberTransactionsTableAdapter memberTransactionsTableAdapter2;
+        private Gym_Management_SystemDataSet4 gym_Management_SystemDataSet4;
+        private System.Windows.Forms.BindingSource employeeSalaryBindingSource1;
+        private Gym_Management_SystemDataSet4TableAdapters.Employee_SalaryTableAdapter employee_SalaryTableAdapter1;
     }
 }

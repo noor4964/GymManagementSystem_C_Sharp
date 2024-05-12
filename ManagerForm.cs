@@ -72,11 +72,8 @@ namespace Gym_Management_System
 
         private void salaryBtn_Click(object sender, EventArgs e)
         {
-            //profilePanelManager.Visible = false;
             salaryPanel.Visible = true;
             feesPanel.Visible = false;
-            //profilePanelManager.Visible = false;
-            //recordsPanel.Visible = false;
         }
 
         private void memberFeebtn_Click(object sender, EventArgs e)
@@ -100,12 +97,16 @@ namespace Gym_Management_System
 
         private void ManagerForm_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'gym_Management_SystemDataSet4.Employee_Salary' table. You can move, or remove it, as needed.
+            this.employee_SalaryTableAdapter1.Fill(this.gym_Management_SystemDataSet4.Employee_Salary);
+            // TODO: This line of code loads data into the 'gym_Management_SystemDataSet3.MemberTransactions' table. You can move, or remove it, as needed.
+            this.memberTransactionsTableAdapter2.Fill(this.gym_Management_SystemDataSet3.MemberTransactions);
             // TODO: This line of code loads data into the 'gym_Management_SystemDataSet2.MemberTransactions' table. You can move, or remove it, as needed.
-            this.memberTransactionsTableAdapter1.Fill(this.gym_Management_SystemDataSet2.MemberTransactions);
+            //this.memberTransactionsTableAdapter1.Fill(this.gym_Management_SystemDataSet2.MemberTransactions);
             // TODO: This line of code loads data into the 'gym_Management_SystemDataSet1.MemberTransactions' table. You can move, or remove it, as needed.
-            this.memberTransactionsTableAdapter.Fill(this.gym_Management_SystemDataSet1.MemberTransactions);
+            //this.memberTransactionsTableAdapter.Fill(this.gym_Management_SystemDataSet1.MemberTransactions);
             // TODO: This line of code loads data into the 'gym_Management_SystemDataSet.Employee_Salary' table. You can move, or remove it, as needed.
-            this.employee_SalaryTableAdapter.Fill(this.gym_Management_SystemDataSet.Employee_Salary);
+            //this.employee_SalaryTableAdapter.Fill(this.gym_Management_SystemDataSet.Employee_Salary);
 
         }
 
