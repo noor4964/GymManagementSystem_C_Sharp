@@ -17,16 +17,17 @@ namespace Gym_Management_System
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Welcome());
-            //Application.Run(new SignUp());
-            //Application.Run(new ServiceStaff());
+            // Application.Run(new SignUp());
+            ///Application.Run(new ServiceStaff());
             //Application.Run(new AttendanceForm());
             //Application.Run(new ManagerForm());
             //Application.Run(new Package());
             //Application.Run(new BKashTransaction());
             //Application.Run(new Member());
             //Application.Run(new Trainer());
-            //Application.Run(new Nutritionist());
-            Application.Run(new Admin());
+            Application.Run(new Nutritionist());
+            // Application.Run(new Admin());
+            //Application.Run(new User_Type());
         }
     }
 }

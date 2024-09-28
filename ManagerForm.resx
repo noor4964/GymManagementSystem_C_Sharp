@@ -120,41 +120,32 @@
   <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="memberTransactionsBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>617, 103</value>
-  </metadata>
-  <metadata name="gym_Management_SystemDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>316, 103</value>
-  </metadata>
-  <metadata name="employeeSalaryBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>318, 146</value>
-  </metadata>
-  <metadata name="gym_Management_SystemDataSet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 146</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
-  <metadata name="gym_Management_SystemDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>316, 103</value>
+  <metadata name="memberTransactionsBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1055, 146</value>
+  </metadata>
+  <metadata name="gym_Management_SystemDataSet14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>806, 146</value>
   </metadata>
   <data name="bunifuThinButton23.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -176,6 +167,21 @@
         g4XXalXlcwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="employeeSalaryBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>517, 183</value>
+  </metadata>
+  <metadata name="gym_Management_SystemDataSet15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 183</value>
+  </metadata>
+  <metadata name="memberTransactionsBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>617, 103</value>
+  </metadata>
+  <metadata name="gym_Management_SystemDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>316, 103</value>
+  </metadata>
+  <metadata name="employeeSalaryBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>318, 146</value>
+  </metadata>
   <metadata name="gym_Management_SystemDataSet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 146</value>
   </metadata>
@@ -185,14 +191,8 @@
   <metadata name="gym_Management_SystemDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>604, 60</value>
   </metadata>
-  <metadata name="gym_Management_SystemDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>604, 60</value>
-  </metadata>
   <metadata name="employeeSalaryBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>442, 17</value>
-  </metadata>
-  <metadata name="gym_Management_SystemDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>150, 17</value>
   </metadata>
   <metadata name="gym_Management_SystemDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>150, 17</value>
@@ -217,6 +217,15 @@
   </metadata>
   <metadata name="employee_SalaryTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>589, 146</value>
+  </metadata>
+  <metadata name="memberTransactionsTableAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>29, 183</value>
+  </metadata>
+  <metadata name="employee_SalaryTableAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>737, 183</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

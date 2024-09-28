@@ -120,19 +120,19 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="sugstBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAATMAAAA4CAYAAACR6B8pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJ1SURBVHhe7d0rb2pBFIBRZCWyEolEIpFIJJKfgavkZyCR
+        iVBORw0KGgoAAAANSUhEUgAAATMAAAA5CAYAAABatMyMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJ4SURBVHhe7d0rb2pBFIBRZCWyEolEIpFIJJKfgavkZyCR
         SCSyshKJRCIr52YPj7SXgru3zM5ayYTDoa38Mo/T0CkACYgZkIKYASmIGZCCmAEpiBmQwsOYfX5+ltVq
         VabTaRmNRqXX65VOp2MYhvFfRjQn2jOZTMpyuSzH4/Fcp1t3Y7bZbOofipBF0Lbbbdnv9+dPAf69aE60
         Z71el9lsVpsUUfvJTcyifPFL4/G4HA6H812A3/eoT99iFj84GAzulg/gGcTKcTgcflstfotZFE/IgBbE
         8jP20y6uMYvSxdQNoBXz+bwsFot6XWMWp5axsWaPDGhJtCu2xna73SlmsbSMJSZAa2JmFjO0GrN4hiOO
         PgFa8/HxUWdnNWb9fr9O0wBaE0vNl5eXU8y63e7DJ2sBnln9j4HLBUCrxAxIQcyAFMQMSEHMgBTEDEhB
-        zIAUxAxIQcyAFMQMSEHMgBTEDEhBzIAUxAxIQcyAFMQMSEHMgBTEDEhBzIAUxAxIQcyAFMQMSEHMgBSu
-        MYsv0Iwv0gRo0TVmvV6v7Pf7ehOgNdeYjcfjstls6k2Alux2u9Lv908xWywWZT6f1w8AWrJcLstsNjvF
-        LJaYUTb7ZkBrJpNJWa/Xp5iFt7e3OgBasVqtynQ6rdfXmMWsbDQalff39/MdgOd1OBzqivJ4PNb315iF
-        2EgbDAb1FeBZRchi8rXdbs93/opZiJlZBC0OBQCeTeyPxYzsa8jCTcxCLDnjdDPKFycFUUGA3xJLycv+
-        WGz4X5aWX/0Ys4soXxx5vr6+nh5KMwzD+IXR7XZryCJo9zyMGUArxAxIQcyAFMQMSEHMgARK+QODeMNR
-        hVls+wAAAABJRU5ErkJggg==
+        zIAUxAxIQcyAFMQMSEHMgBTEDEhBzIAUxAxIQcyAFMQMSEHMgBTEDEhBzIAUxAxIQcyAFMQMSEHMgBTE
+        DEjhGrP4NuD4VmCAFl1j1uv1yn6/rzcBWnON2Xg8LpvNpt4EaMlutyv9fv8Us8ViUebzef0AoCXL5bLM
+        ZrNTzGKJGWWzbwa0ZjKZlPV6fYpZeHt7qwOgFavVqkyn03p9jVnMykajUXl/fz/fAXheh8OhriiPx2N9
+        f41ZiI20wWBQXwGeVYQsJl/b7fZ856+YhZiZRdDiUADg2cT+WMzIvoYs3MQsxJIzTjejfHFSEBUE+C2x
+        lLzsj8WG/2Vp+dWPMbuI8sWR5+vr6+mhNMMwjF8Y3W63hiyCds/DmAG0QsyAFMQMSEHMgBTEDEiglD/N
+        rYTWrS2O0wAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="searchBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -158,6 +158,9 @@
   </metadata>
   <metadata name="employee_SalaryTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>581, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

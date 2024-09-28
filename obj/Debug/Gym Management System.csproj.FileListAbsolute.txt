@@ -21,3 +21,26 @@ D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_S
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Trainer.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Nutritionist.resources
 D:\Progamming Files\CSharp Lang\Gym Management System\obj\Debug\Gym_Management_System.Admin.resources
+C:\Users\User\Desktop\C#_Project\bin\Debug\Gym Management System.exe.config
+C:\Users\User\Desktop\C#_Project\bin\Debug\Gym Management System.exe
+C:\Users\User\Desktop\C#_Project\bin\Debug\Gym Management System.pdb
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym Management System.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Admin.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.AttendanceForm.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.BKashTransaction.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.CustomControls.GymTextBox.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.ManagerForm.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Member.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Nutritionist.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Package.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.ServiceStaff.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.SignUp.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Trainer.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Welcome.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.Properties.Resources.resources
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym Management System.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym Management System.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym Mana.345D8516.Up2Date
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym Management System.exe
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym Management System.pdb
+C:\Users\User\Desktop\C#_Project\obj\Debug\Gym_Management_System.ManagerForm1.resources

@@ -173,6 +173,7 @@ namespace Gym_Management_System
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(379, 791);
             this.panel1.TabIndex = 3;
@@ -187,6 +188,7 @@ namespace Gym_Management_System
             this.suggestbtn.Image = global::Gym_Management_System.Properties.Resources.tip__1_;
             this.suggestbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.suggestbtn.Location = new System.Drawing.Point(0, 493);
+            this.suggestbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.suggestbtn.Name = "suggestbtn";
             this.suggestbtn.Size = new System.Drawing.Size(379, 66);
             this.suggestbtn.TabIndex = 5;
@@ -205,6 +207,7 @@ namespace Gym_Management_System
             this.statsBtn.Image = global::Gym_Management_System.Properties.Resources.bar_chart__1___2_;
             this.statsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.statsBtn.Location = new System.Drawing.Point(0, 427);
+            this.statsBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.statsBtn.Name = "statsBtn";
             this.statsBtn.Size = new System.Drawing.Size(379, 66);
             this.statsBtn.TabIndex = 4;
@@ -223,6 +226,7 @@ namespace Gym_Management_System
             this.logOutBtn.Image = global::Gym_Management_System.Properties.Resources.sign_out_alt;
             this.logOutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.logOutBtn.Location = new System.Drawing.Point(0, 725);
+            this.logOutBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.logOutBtn.Name = "logOutBtn";
             this.logOutBtn.Size = new System.Drawing.Size(379, 66);
             this.logOutBtn.TabIndex = 3;
@@ -241,6 +245,7 @@ namespace Gym_Management_System
             this.recordsBtn.Image = global::Gym_Management_System.Properties.Resources.receipt;
             this.recordsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.recordsBtn.Location = new System.Drawing.Point(0, 361);
+            this.recordsBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.recordsBtn.Name = "recordsBtn";
             this.recordsBtn.Size = new System.Drawing.Size(379, 66);
             this.recordsBtn.TabIndex = 2;
@@ -259,6 +264,7 @@ namespace Gym_Management_System
             this.profileBtn.Image = global::Gym_Management_System.Properties.Resources.user;
             this.profileBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.profileBtn.Location = new System.Drawing.Point(0, 298);
+            this.profileBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.profileBtn.Name = "profileBtn";
             this.profileBtn.Size = new System.Drawing.Size(379, 63);
             this.profileBtn.TabIndex = 1;
@@ -277,6 +283,7 @@ namespace Gym_Management_System
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(379, 298);
             this.panel2.TabIndex = 0;
@@ -286,6 +293,7 @@ namespace Gym_Management_System
             this.headerBar.Controls.Add(this.pictureBox8);
             this.headerBar.Controls.Add(this.Records);
             this.headerBar.Location = new System.Drawing.Point(379, 4);
+            this.headerBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.headerBar.Name = "headerBar";
             this.headerBar.Size = new System.Drawing.Size(1173, 76);
             this.headerBar.TabIndex = 1;
@@ -294,6 +302,7 @@ namespace Gym_Management_System
             // 
             this.pictureBox8.Image = global::Gym_Management_System.Properties.Resources.folder__1_;
             this.pictureBox8.Location = new System.Drawing.Point(19, 23);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(44, 39);
             this.pictureBox8.TabIndex = 1;
@@ -312,9 +321,10 @@ namespace Gym_Management_System
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(385, 3);
+            this.panel3.Location = new System.Drawing.Point(385, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1146, 776);
+            this.panel3.Size = new System.Drawing.Size(1147, 775);
             this.panel3.TabIndex = 2;
             // 
             // label3
@@ -355,6 +365,7 @@ namespace Gym_Management_System
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Image = global::Gym_Management_System.Properties.Resources.profile__1__removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(119, 46);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 133);
             this.pictureBox1.TabIndex = 0;
@@ -372,6 +383,7 @@ namespace Gym_Management_System
             this.profilePanelNu.Controls.Add(this.managerLabel);
             this.profilePanelNu.Dock = System.Windows.Forms.DockStyle.Left;
             this.profilePanelNu.Location = new System.Drawing.Point(379, 0);
+            this.profilePanelNu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.profilePanelNu.Name = "profilePanelNu";
             this.profilePanelNu.Size = new System.Drawing.Size(1173, 791);
             this.profilePanelNu.TabIndex = 13;
@@ -382,6 +394,7 @@ namespace Gym_Management_System
             this.recordsPanelNu.Controls.Add(this.serviceStaffRecords);
             this.recordsPanelNu.Controls.Add(this.headerPanelNu);
             this.recordsPanelNu.Location = new System.Drawing.Point(0, 0);
+            this.recordsPanelNu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.recordsPanelNu.Name = "recordsPanelNu";
             this.recordsPanelNu.Size = new System.Drawing.Size(1173, 791);
             this.recordsPanelNu.TabIndex = 15;
@@ -393,6 +406,7 @@ namespace Gym_Management_System
             this.memberStatsPanel.Controls.Add(this.gymRoundedPanel7);
             this.memberStatsPanel.Controls.Add(this.headerNuPanelStats);
             this.memberStatsPanel.Location = new System.Drawing.Point(0, 0);
+            this.memberStatsPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.memberStatsPanel.Name = "memberStatsPanel";
             this.memberStatsPanel.Size = new System.Drawing.Size(1169, 791);
             this.memberStatsPanel.TabIndex = 7;
@@ -402,6 +416,7 @@ namespace Gym_Management_System
             this.suggestPanel.Controls.Add(this.gymRoundedPanel15);
             this.suggestPanel.Controls.Add(this.headerExercisePanel);
             this.suggestPanel.Location = new System.Drawing.Point(-1, 0);
+            this.suggestPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.suggestPanel.Name = "suggestPanel";
             this.suggestPanel.Size = new System.Drawing.Size(1192, 791);
             this.suggestPanel.TabIndex = 5;
@@ -422,6 +437,7 @@ namespace Gym_Management_System
             this.gymRoundedPanel15.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(28)))), ((int)(((byte)(52)))));
             this.gymRoundedPanel15.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(171)))), ((int)(((byte)(176)))));
             this.gymRoundedPanel15.Location = new System.Drawing.Point(196, 150);
+            this.gymRoundedPanel15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gymRoundedPanel15.Name = "gymRoundedPanel15";
             this.gymRoundedPanel15.Padding = new System.Windows.Forms.Padding(7);
             this.gymRoundedPanel15.Size = new System.Drawing.Size(829, 529);
@@ -445,12 +461,13 @@ namespace Gym_Management_System
             this.sugstBtn.IdleFillColor = System.Drawing.Color.Transparent;
             this.sugstBtn.IdleForecolor = System.Drawing.SystemColors.ActiveCaptionText;
             this.sugstBtn.IdleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.sugstBtn.Location = new System.Drawing.Point(270, 433);
+            this.sugstBtn.Location = new System.Drawing.Point(269, 433);
             this.sugstBtn.Margin = new System.Windows.Forms.Padding(5);
             this.sugstBtn.Name = "sugstBtn";
-            this.sugstBtn.Size = new System.Drawing.Size(307, 56);
+            this.sugstBtn.Size = new System.Drawing.Size(307, 57);
             this.sugstBtn.TabIndex = 45;
             this.sugstBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.sugstBtn.Click += new System.EventHandler(this.sugstBtn_Click);
             // 
             // gymComboBox1
             // 
@@ -469,11 +486,12 @@ namespace Gym_Management_System
             "Dinner"});
             this.gymComboBox1.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.gymComboBox1.ListTextColor = System.Drawing.Color.DimGray;
-            this.gymComboBox1.Location = new System.Drawing.Point(270, 161);
+            this.gymComboBox1.Location = new System.Drawing.Point(269, 161);
+            this.gymComboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gymComboBox1.MinimumSize = new System.Drawing.Size(200, 30);
             this.gymComboBox1.Name = "gymComboBox1";
-            this.gymComboBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.gymComboBox1.Size = new System.Drawing.Size(304, 40);
+            this.gymComboBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gymComboBox1.Size = new System.Drawing.Size(304, 39);
             this.gymComboBox1.TabIndex = 44;
             this.gymComboBox1.Texts = "Select";
             // 
@@ -484,7 +502,7 @@ namespace Gym_Management_System
             this.label36.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(265, 228);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(97, 23);
+            this.label36.Size = new System.Drawing.Size(92, 22);
             this.label36.TabIndex = 43;
             this.label36.Text = "Write Diet";
             // 
@@ -516,7 +534,7 @@ namespace Gym_Management_System
             this.label37.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(267, 134);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(122, 23);
+            this.label37.Size = new System.Drawing.Size(119, 22);
             this.label37.TabIndex = 41;
             this.label37.Text = "Choose Day";
             // 
@@ -531,13 +549,13 @@ namespace Gym_Management_System
             this.gymTextBox6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gymTextBox6.IsFocused = false;
             this.gymTextBox6.IsFocused1 = false;
-            this.gymTextBox6.Location = new System.Drawing.Point(268, 72);
+            this.gymTextBox6.Location = new System.Drawing.Point(268, 71);
             this.gymTextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gymTextBox6.Multiline = false;
             this.gymTextBox6.Name = "gymTextBox6";
             this.gymTextBox6.Padding = new System.Windows.Forms.Padding(7);
             this.gymTextBox6.PasswordChar = false;
-            this.gymTextBox6.Size = new System.Drawing.Size(306, 35);
+            this.gymTextBox6.Size = new System.Drawing.Size(307, 35);
             this.gymTextBox6.TabIndex = 6;
             this.gymTextBox6.Texts = "";
             this.gymTextBox6.UnderLinedStyle = false;
@@ -547,9 +565,9 @@ namespace Gym_Management_System
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.Transparent;
             this.label32.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(266, 47);
+            this.label32.Location = new System.Drawing.Point(267, 47);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(111, 23);
+            this.label32.Size = new System.Drawing.Size(108, 22);
             this.label32.TabIndex = 5;
             this.label32.Text = "Member ID";
             // 
@@ -558,6 +576,7 @@ namespace Gym_Management_System
             this.headerExercisePanel.Controls.Add(this.pictureBox11);
             this.headerExercisePanel.Controls.Add(this.label19);
             this.headerExercisePanel.Location = new System.Drawing.Point(-1, -1);
+            this.headerExercisePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.headerExercisePanel.Name = "headerExercisePanel";
             this.headerExercisePanel.Size = new System.Drawing.Size(1173, 76);
             this.headerExercisePanel.TabIndex = 1;
@@ -566,6 +585,7 @@ namespace Gym_Management_System
             // 
             this.pictureBox11.Image = global::Gym_Management_System.Properties.Resources.tip__2_;
             this.pictureBox11.Location = new System.Drawing.Point(19, 23);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(44, 39);
             this.pictureBox11.TabIndex = 1;
@@ -594,9 +614,10 @@ namespace Gym_Management_System
             this.gymRoundedPanel7.GradientAngle = 90F;
             this.gymRoundedPanel7.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(69)))), ((int)(((byte)(79)))));
             this.gymRoundedPanel7.GradientTopColor = System.Drawing.Color.Maroon;
-            this.gymRoundedPanel7.Location = new System.Drawing.Point(18, 86);
+            this.gymRoundedPanel7.Location = new System.Drawing.Point(19, 86);
+            this.gymRoundedPanel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gymRoundedPanel7.Name = "gymRoundedPanel7";
-            this.gymRoundedPanel7.Size = new System.Drawing.Size(1134, 693);
+            this.gymRoundedPanel7.Size = new System.Drawing.Size(1133, 693);
             this.gymRoundedPanel7.TabIndex = 4;
             // 
             // pieChart
@@ -609,6 +630,7 @@ namespace Gym_Management_System
             legend1.Name = "Legend1";
             this.pieChart.Legends.Add(legend1);
             this.pieChart.Location = new System.Drawing.Point(555, 31);
+            this.pieChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pieChart.Name = "pieChart";
             this.pieChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
             series1.BackImageTransparentColor = System.Drawing.Color.DarkRed;
@@ -635,6 +657,7 @@ namespace Gym_Management_System
             legend2.Name = "Legend1";
             this.avgChart.Legends.Add(legend2);
             this.avgChart.Location = new System.Drawing.Point(551, 358);
+            this.avgChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.avgChart.Name = "avgChart";
             this.avgChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             series2.BackImageTransparentColor = System.Drawing.Color.DarkRed;
@@ -660,6 +683,7 @@ namespace Gym_Management_System
             legend3.Name = "Legend1";
             this.bmiChart.Legends.Add(legend3);
             this.bmiChart.Location = new System.Drawing.Point(25, 358);
+            this.bmiChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bmiChart.Name = "bmiChart";
             this.bmiChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
             series3.BackImageTransparentColor = System.Drawing.Color.DarkSalmon;
@@ -686,7 +710,8 @@ namespace Gym_Management_System
             this.attendanceChart.ChartAreas.Add(chartArea4);
             legend4.Name = "Legend1";
             this.attendanceChart.Legends.Add(legend4);
-            this.attendanceChart.Location = new System.Drawing.Point(18, 31);
+            this.attendanceChart.Location = new System.Drawing.Point(19, 31);
+            this.attendanceChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.attendanceChart.Name = "attendanceChart";
             this.attendanceChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             series4.BackImageTransparentColor = System.Drawing.Color.DarkRed;
@@ -698,7 +723,7 @@ namespace Gym_Management_System
             series4.Legend = "Legend1";
             series4.Name = "Days";
             this.attendanceChart.Series.Add(series4);
-            this.attendanceChart.Size = new System.Drawing.Size(546, 300);
+            this.attendanceChart.Size = new System.Drawing.Size(547, 300);
             this.attendanceChart.TabIndex = 2;
             this.attendanceChart.Text = "chart1";
             // 
@@ -710,6 +735,7 @@ namespace Gym_Management_System
             this.headerNuPanelStats.Controls.Add(this.pictureBox10);
             this.headerNuPanelStats.Controls.Add(this.label10);
             this.headerNuPanelStats.Location = new System.Drawing.Point(-1, 0);
+            this.headerNuPanelStats.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.headerNuPanelStats.Name = "headerNuPanelStats";
             this.headerNuPanelStats.Size = new System.Drawing.Size(1173, 76);
             this.headerNuPanelStats.TabIndex = 1;
@@ -718,7 +744,7 @@ namespace Gym_Management_System
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(534, 31);
+            this.label18.Location = new System.Drawing.Point(533, 31);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(177, 23);
             this.label18.TabIndex = 7;
@@ -743,7 +769,7 @@ namespace Gym_Management_System
             this.searchBtn.IdleForecolor = System.Drawing.SystemColors.ActiveCaptionText;
             this.searchBtn.IdleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.searchBtn.Location = new System.Drawing.Point(1035, 15);
-            this.searchBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.searchBtn.Margin = new System.Windows.Forms.Padding(7);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(109, 53);
             this.searchBtn.TabIndex = 6;
@@ -760,13 +786,13 @@ namespace Gym_Management_System
             this.nametextBox.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nametextBox.IsFocused = false;
             this.nametextBox.IsFocused1 = false;
-            this.nametextBox.Location = new System.Drawing.Point(722, 25);
+            this.nametextBox.Location = new System.Drawing.Point(723, 25);
             this.nametextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nametextBox.Multiline = false;
             this.nametextBox.Name = "nametextBox";
             this.nametextBox.Padding = new System.Windows.Forms.Padding(7);
             this.nametextBox.PasswordChar = false;
-            this.nametextBox.Size = new System.Drawing.Size(306, 35);
+            this.nametextBox.Size = new System.Drawing.Size(307, 35);
             this.nametextBox.TabIndex = 5;
             this.nametextBox.Texts = "";
             this.nametextBox.UnderLinedStyle = false;
@@ -775,6 +801,7 @@ namespace Gym_Management_System
             // 
             this.pictureBox10.Image = global::Gym_Management_System.Properties.Resources.bar_chart__1___2_1;
             this.pictureBox10.Location = new System.Drawing.Point(19, 23);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(44, 39);
             this.pictureBox10.TabIndex = 1;
@@ -836,7 +863,8 @@ namespace Gym_Management_System
             this.serviceStaffRecords.GridColor = System.Drawing.Color.Black;
             this.serviceStaffRecords.HeaderBgColor = System.Drawing.Color.Maroon;
             this.serviceStaffRecords.HeaderForeColor = System.Drawing.Color.White;
-            this.serviceStaffRecords.Location = new System.Drawing.Point(62, 167);
+            this.serviceStaffRecords.Location = new System.Drawing.Point(61, 167);
+            this.serviceStaffRecords.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.serviceStaffRecords.Name = "serviceStaffRecords";
             this.serviceStaffRecords.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.serviceStaffRecords.RowHeadersVisible = false;
@@ -850,7 +878,7 @@ namespace Gym_Management_System
             this.serviceStaffRecords.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.serviceStaffRecords.RowTemplate.Height = 25;
             this.serviceStaffRecords.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.serviceStaffRecords.Size = new System.Drawing.Size(998, 344);
+            this.serviceStaffRecords.Size = new System.Drawing.Size(997, 345);
             this.serviceStaffRecords.TabIndex = 6;
             // 
             // transactionIDDataGridViewTextBoxColumn
@@ -896,6 +924,7 @@ namespace Gym_Management_System
             this.headerPanelNu.Controls.Add(this.pictureBox3);
             this.headerPanelNu.Controls.Add(this.label5);
             this.headerPanelNu.Location = new System.Drawing.Point(-1, -1);
+            this.headerPanelNu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.headerPanelNu.Name = "headerPanelNu";
             this.headerPanelNu.Size = new System.Drawing.Size(1173, 76);
             this.headerPanelNu.TabIndex = 1;
@@ -904,6 +933,7 @@ namespace Gym_Management_System
             // 
             this.pictureBox3.Image = global::Gym_Management_System.Properties.Resources.folder__1_;
             this.pictureBox3.Location = new System.Drawing.Point(19, 23);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(44, 39);
             this.pictureBox3.TabIndex = 1;
@@ -927,6 +957,7 @@ namespace Gym_Management_System
             this.panel9.Controls.Add(this.label15);
             this.panel9.Controls.Add(this.pictureBox7);
             this.panel9.Location = new System.Drawing.Point(57, 556);
+            this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1065, 220);
             this.panel9.TabIndex = 14;
@@ -936,7 +967,7 @@ namespace Gym_Management_System
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(133, 88);
+            this.label14.Location = new System.Drawing.Point(133, 89);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(837, 102);
             this.label14.TabIndex = 6;
@@ -949,7 +980,7 @@ namespace Gym_Management_System
             this.label15.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(127, 32);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(226, 44);
+            this.label15.Size = new System.Drawing.Size(222, 44);
             this.label15.TabIndex = 5;
             this.label15.Text = "Experience";
             // 
@@ -957,8 +988,9 @@ namespace Gym_Management_System
             // 
             this.pictureBox7.Image = global::Gym_Management_System.Properties.Resources.portfolio__1___1_;
             this.pictureBox7.Location = new System.Drawing.Point(19, 44);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(102, 124);
+            this.pictureBox7.Size = new System.Drawing.Size(101, 124);
             this.pictureBox7.TabIndex = 2;
             this.pictureBox7.TabStop = false;
             // 
@@ -969,6 +1001,7 @@ namespace Gym_Management_System
             this.panel8.Controls.Add(this.label8);
             this.panel8.Controls.Add(this.pictureBox6);
             this.panel8.Location = new System.Drawing.Point(415, 322);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(707, 220);
             this.panel8.TabIndex = 13;
@@ -990,7 +1023,7 @@ namespace Gym_Management_System
             this.label8.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(127, 32);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(168, 44);
+            this.label8.Size = new System.Drawing.Size(162, 44);
             this.label8.TabIndex = 5;
             this.label8.Text = "Address";
             // 
@@ -998,8 +1031,9 @@ namespace Gym_Management_System
             // 
             this.pictureBox6.Image = global::Gym_Management_System.Properties.Resources.maps_and_flags__1_;
             this.pictureBox6.Location = new System.Drawing.Point(19, 44);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(102, 124);
+            this.pictureBox6.Size = new System.Drawing.Size(101, 124);
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
             // 
@@ -1010,6 +1044,7 @@ namespace Gym_Management_System
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.pictureBox4);
             this.panel6.Location = new System.Drawing.Point(415, 86);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(341, 220);
             this.panel6.TabIndex = 13;
@@ -1031,7 +1066,7 @@ namespace Gym_Management_System
             this.label6.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(124, 57);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(167, 44);
+            this.label6.Size = new System.Drawing.Size(164, 44);
             this.label6.TabIndex = 3;
             this.label6.Text = "Contact";
             // 
@@ -1039,8 +1074,9 @@ namespace Gym_Management_System
             // 
             this.pictureBox4.Image = global::Gym_Management_System.Properties.Resources.phone__1_;
             this.pictureBox4.Location = new System.Drawing.Point(23, 57);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(90, 124);
+            this.pictureBox4.Size = new System.Drawing.Size(91, 124);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
@@ -1051,6 +1087,7 @@ namespace Gym_Management_System
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.pictureBox5);
             this.panel7.Location = new System.Drawing.Point(57, 322);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(341, 220);
             this.panel7.TabIndex = 13;
@@ -1060,7 +1097,7 @@ namespace Gym_Management_System
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(158, 87);
+            this.label12.Location = new System.Drawing.Point(157, 87);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(51, 37);
             this.label12.TabIndex = 3;
@@ -1072,14 +1109,15 @@ namespace Gym_Management_System
             this.label7.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(152, 32);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(97, 44);
+            this.label7.Size = new System.Drawing.Size(94, 44);
             this.label7.TabIndex = 4;
             this.label7.Text = "Age";
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Gym_Management_System.Properties.Resources.age_group__1_;
-            this.pictureBox5.Location = new System.Drawing.Point(26, 32);
+            this.pictureBox5.Location = new System.Drawing.Point(27, 32);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(120, 124);
             this.pictureBox5.TabIndex = 1;
@@ -1092,6 +1130,7 @@ namespace Gym_Management_System
             this.panel10.Controls.Add(this.label17);
             this.panel10.Controls.Add(this.pictureBox9);
             this.panel10.Location = new System.Drawing.Point(781, 86);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(341, 220);
             this.panel10.TabIndex = 8;
@@ -1113,14 +1152,15 @@ namespace Gym_Management_System
             this.label17.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(147, 69);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(131, 44);
+            this.label17.Size = new System.Drawing.Size(128, 44);
             this.label17.TabIndex = 2;
             this.label17.Text = "Salary";
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Gym_Management_System.Properties.Resources.money__1_;
-            this.pictureBox9.Location = new System.Drawing.Point(22, 57);
+            this.pictureBox9.Location = new System.Drawing.Point(21, 57);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(120, 124);
             this.pictureBox9.TabIndex = 1;
@@ -1133,6 +1173,7 @@ namespace Gym_Management_System
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Location = new System.Drawing.Point(57, 86);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(337, 220);
             this.panel4.TabIndex = 11;
@@ -1154,7 +1195,7 @@ namespace Gym_Management_System
             this.label4.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(132, 64);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 44);
+            this.label4.Size = new System.Drawing.Size(107, 44);
             this.label4.TabIndex = 1;
             this.label4.Text = "Rank";
             // 
@@ -1162,6 +1203,7 @@ namespace Gym_Management_System
             // 
             this.pictureBox2.Image = global::Gym_Management_System.Properties.Resources.ranking__1_;
             this.pictureBox2.Location = new System.Drawing.Point(19, 69);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(108, 124);
             this.pictureBox2.TabIndex = 0;
@@ -1173,7 +1215,7 @@ namespace Gym_Management_System
             this.managerLabel.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.managerLabel.Location = new System.Drawing.Point(49, 22);
             this.managerLabel.Name = "managerLabel";
-            this.managerLabel.Size = new System.Drawing.Size(328, 44);
+            this.managerLabel.Size = new System.Drawing.Size(321, 44);
             this.managerLabel.TabIndex = 10;
             this.managerLabel.Text = "Nutritionist Profile";
             // 
@@ -1185,10 +1227,11 @@ namespace Gym_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1543, 791);
+            this.ClientSize = new System.Drawing.Size(1540, 791);
             this.Controls.Add(this.profilePanelNu);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimizeBox = false;
             this.Name = "Nutritionist";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
